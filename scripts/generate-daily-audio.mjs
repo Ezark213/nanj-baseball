@@ -186,7 +186,7 @@ async function generateDailyAudio() {
       const comment = sampleNanjComments[i];
       const voicePattern = voicePatterns[i % voicePatterns.length];
       
-      // 議題番号計算
+      // テーマ番号計算
       const topicNum = Math.floor(i / 20) + 1;
       const commentNum = (i % 20) + 1;
       
