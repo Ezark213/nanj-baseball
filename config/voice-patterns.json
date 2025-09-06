@@ -1,0 +1,208 @@
+{
+  "patterns": [
+    {
+      "id": "zundamon-normal",
+      "character": "ずんだもん",
+      "style": "ノーマル",
+      "speakerId": 3,
+      "description": "標準的なずんだもんの声",
+      "enabled": true,
+      "priority": 1
+    },
+    {
+      "id": "zundamon-amaama",
+      "character": "ずんだもん", 
+      "style": "あまあま",
+      "speakerId": 1,
+      "description": "甘い調子のずんだもん",
+      "enabled": true,
+      "priority": 2
+    },
+    {
+      "id": "zundamon-tsuntsun",
+      "character": "ずんだもん",
+      "style": "ツンツン", 
+      "speakerId": 7,
+      "description": "ツンデレなずんだもん",
+      "enabled": true,
+      "priority": 3
+    },
+    {
+      "id": "zundamon-sexy",
+      "character": "ずんだもん",
+      "style": "セクシー",
+      "speakerId": 5,
+      "description": "セクシーなずんだもん",
+      "enabled": true,
+      "priority": 4
+    },
+    {
+      "id": "zundamon-sasayaki",
+      "character": "ずんだもん",
+      "style": "ささやき",
+      "speakerId": 22,
+      "description": "ささやき声のずんだもん",
+      "enabled": true,
+      "priority": 5
+    },
+    {
+      "id": "zundamon-hisohiso",
+      "character": "ずんだもん",
+      "style": "ヒソヒソ", 
+      "speakerId": 38,
+      "description": "ヒソヒソ話すずんだもん",
+      "enabled": true,
+      "priority": 6
+    },
+    {
+      "id": "zundamon-herohero",
+      "character": "ずんだもん",
+      "style": "ヘロヘロ",
+      "speakerId": 75,
+      "description": "疲れたずんだもん",
+      "enabled": true,
+      "priority": 7
+    },
+    {
+      "id": "zundamon-namidame",
+      "character": "ずんだもん",
+      "style": "なみだめ",
+      "speakerId": 76,
+      "description": "泣きそうなずんだもん",
+      "enabled": true,
+      "priority": 8
+    },
+    {
+      "id": "metan-amaama",
+      "character": "四国めたん",
+      "style": "あまあま",
+      "speakerId": 0,
+      "description": "甘い四国めたんの声",
+      "enabled": true,
+      "priority": 9
+    },
+    {
+      "id": "metan-normal",
+      "character": "四国めたん",
+      "style": "ノーマル",
+      "speakerId": 2,
+      "description": "標準的な四国めたんの声",
+      "enabled": true,
+      "priority": 10
+    },
+    {
+      "id": "metan-tsuntsun",
+      "character": "四国めたん",
+      "style": "ツンツン",
+      "speakerId": 6,
+      "description": "ツンデレな四国めたん",
+      "enabled": true,
+      "priority": 11
+    },
+    {
+      "id": "metan-sexy",
+      "character": "四国めたん", 
+      "style": "セクシー",
+      "speakerId": 4,
+      "description": "セクシーな四国めたん",
+      "enabled": true,
+      "priority": 12
+    },
+    {
+      "id": "metan-sasayaki",
+      "character": "四国めたん",
+      "style": "ささやき",
+      "speakerId": 36,
+      "description": "ささやき声の四国めたん",
+      "enabled": true,
+      "priority": 13
+    },
+    {
+      "id": "metan-hisohiso",
+      "character": "四国めたん",
+      "style": "ヒソヒソ",
+      "speakerId": 37,
+      "description": "ヒソヒソ話す四国めたん", 
+      "enabled": true,
+      "priority": 14
+    }
+  ],
+  "selectionMode": "random",
+  "conditionalRules": {
+    "timeRules": [
+      {
+        "timeRange": "06:00-11:59",
+        "patternIds": ["zundamon-amaama", "metan-amaama", "zundamon-normal"]
+      },
+      {
+        "timeRange": "12:00-17:59", 
+        "patternIds": ["zundamon-normal", "metan-normal", "zundamon-tsuntsun"]
+      },
+      {
+        "timeRange": "18:00-23:59",
+        "patternIds": ["zundamon-sasayaki", "metan-sasayaki", "zundamon-hisohiso"]
+      },
+      {
+        "timeRange": "00:00-05:59",
+        "patternIds": ["zundamon-hisohiso", "metan-hisohiso", "zundamon-sasayaki"]
+      }
+    ],
+    "emotionRules": [
+      {
+        "emotion": "happy",
+        "keywords": ["嬉しい", "楽しい", "最高", "やったー", "すごい", "素晴らしい"],
+        "patternIds": ["zundamon-amaama", "metan-amaama"]
+      },
+      {
+        "emotion": "excited", 
+        "keywords": ["すげー", "やべー", "熱い", "興奮", "盛り上がる"],
+        "patternIds": ["zundamon-tsuntsun", "metan-tsuntsun", "zundamon-normal"]
+      },
+      {
+        "emotion": "sad",
+        "keywords": ["悲しい", "つらい", "残念", "だめだ", "落ち込む"],
+        "patternIds": ["zundamon-namidame", "zundamon-herohero"]
+      },
+      {
+        "emotion": "angry",
+        "keywords": ["むかつく", "腹立つ", "イライラ", "最悪", "うざい"],
+        "patternIds": ["zundamon-tsuntsun", "metan-tsuntsun"]
+      },
+      {
+        "emotion": "neutral",
+        "keywords": [],
+        "patternIds": ["zundamon-normal", "metan-normal"]
+      }
+    ],
+    "contentRules": [
+      {
+        "type": "length",
+        "condition": 50,
+        "patternIds": ["zundamon-sasayaki", "metan-sasayaki"]
+      },
+      {
+        "type": "contains",
+        "condition": "野球",
+        "patternIds": ["zundamon-normal", "zundamon-tsuntsun"]
+      },
+      {
+        "type": "contains", 
+        "condition": "ホームラン",
+        "patternIds": ["zundamon-amaama", "metan-amaama"]
+      },
+      {
+        "type": "startsWith",
+        "condition": "おは",
+        "patternIds": ["zundamon-amaama", "metan-amaama"] 
+      },
+      {
+        "type": "startsWith",
+        "condition": "おやすみ",
+        "patternIds": ["zundamon-sasayaki", "metan-sasayaki"]
+      }
+    ]
+  },
+  "defaultPattern": "zundamon-normal",
+  "maxRetries": 3,
+  "cacheDuration": 3600
+}
