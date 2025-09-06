@@ -86,7 +86,7 @@ async function generateDailyAudio() {
   
   // 汎用的なサンプルコメント（実際には指定日付の情報から生成）
   const sampleNanjComments = [
-    // 【議題1】メイン試合の展開・結果 (20個)
+    // 【テーマ1】メイン試合の展開・結果 (20個)
     'あーもう9回2死でダメかと思ったわ、やりやがった',
     '代打のタイムリーで同点とかさすがやな',
     '決勝打、これは鳥肌もんやで',
@@ -108,7 +108,7 @@ async function generateDailyAudio() {
     'ホームの観客、途中で帰った人多そう',
     '先制されるといつも負けるイメージやったのに今回は違った',
 
-    // 【議題2】注目選手・投手の活躍 (20個)
+    // 【テーマ2】注目選手・投手の活躍 (20個)
     '今季初の失敗とか、めっちゃレアやん',
     'エースが崩壊とか見てて辛いわ',
     'あの投手が連打浴びるとか信じられんで',
@@ -130,7 +130,7 @@ async function generateDailyAudio() {
     'あの場面で打たれるのもプロの厳しさやで',
     '次の登板でリベンジしてくれや',
 
-    // 【議題3】特筆すべき場面・記録 (20個)
+    // 【テーマ3】特筆すべき場面・記録 (20個)
     '9回2死からの連打、野球は最後まで分からんな',
     'あの場面で諦めんかった打線、根性あるわ',
     '満塁で代打が出てきた時の期待感よ',
@@ -190,8 +190,8 @@ async function generateDailyAudio() {
       const topicNum = Math.floor(i / 20) + 1;
       const commentNum = (i % 20) + 1;
       
-      console.log(`🎤 ${i + 1}/60 [議題${topicNum}-${commentNum}]: "${comment.substring(0, 40)}${comment.length > 40 ? '...' : ''}"`);
-      console.log(`   音声パターン: ${voicePattern.name} (ID: ${voicePattern.id})`);
+      console.log(`🎤 ${i + 1}/60 [テーマ${topicNum}-${commentNum}]: "${comment.substring(0, 40)}${comment.length > 40 ? '...' : ''}"`);
+      console.log(`   音声パターン: ${voicePattern.name} (ID: ${voicePattern.id}) [1.5倍速]`);
       
       try {
         // 音声クエリ生成
@@ -201,6 +201,9 @@ async function generateDailyAudio() {
         
         if (queryResponse.ok) {
           const audioQuery = await queryResponse.json();
+          
+          // 音声速度を1.5倍に設定
+          audioQuery.speedScale = 1.5;
           
           // 実際の音声合成
           const synthesisResponse = await fetch(`http://localhost:50021/synthesis?speaker=${voicePattern.id}`, {
@@ -212,8 +215,8 @@ async function generateDailyAudio() {
           if (synthesisResponse.ok) {
             const audioData = await synthesisResponse.arrayBuffer();
             
-            // ファイル名生成（議題番号_コメント番号_音声パターン_日付）
-            const filename = `topic${topicNum}_comment${commentNum}_${voicePattern.name}_${formattedDate.replace(/-/g, '')}.wav`;
+            // ファイル名生成（テーマ番号_コメント番号_音声パターン_日付）
+            const filename = `theme${topicNum}_comment${commentNum}_${voicePattern.name}_${formattedDate.replace(/-/g, '')}.wav`;
             const filepath = path.join(outputDir, filename);
             
             // ファイル保存
