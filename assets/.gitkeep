@@ -1,0 +1,9 @@
+# This file keeps the assets directory structure in git
+# Place your video assets in the appropriate subdirectories:
+# - backgrounds/images/ - Background images (JPG, PNG)
+# - backgrounds/videos/ - Background videos (MP4, MOV)
+# - gifs/reactions/ - Reaction GIFs
+# - gifs/baseball/ - Baseball-related GIFs
+# - music/bgm/ - Background music (MP3, WAV)
+# - music/sfx/ - Sound effects (MP3, WAV)
+# - fonts/ - Font files (TTF, OTF)

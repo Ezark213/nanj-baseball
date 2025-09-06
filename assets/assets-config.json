@@ -1,0 +1,28 @@
+{
+  "backgrounds": {
+    "baseball_field": "backgrounds/images/baseball_field.jpg",
+    "night_game": "backgrounds/images/night_game.jpg", 
+    "stadium": "backgrounds/videos/stadium.mp4",
+    "daytime_field": "backgrounds/images/daytime_field.jpg"
+  },
+  "gifs": {
+    "home_run": "gifs/baseball/home_run.gif",
+    "celebration": "gifs/reactions/celebration.gif",
+    "disappointed": "gifs/reactions/disappointed.gif",
+    "excited": "gifs/reactions/excited.gif",
+    "baseball_action": "gifs/baseball/baseball_action.gif",
+    "crowd_cheer": "gifs/reactions/crowd_cheer.gif"
+  },
+  "music": {
+    "bgm_default": "music/bgm/baseball_theme.mp3",
+    "bgm_excited": "music/bgm/exciting_theme.mp3",
+    "bgm_calm": "music/bgm/calm_theme.mp3",
+    "sfx_cheer": "music/sfx/crowd_cheer.mp3",
+    "sfx_hit": "music/sfx/bat_hit.mp3",
+    "sfx_stadium": "music/sfx/stadium_ambient.mp3"
+  },
+  "fonts": {
+    "main": "fonts/NotoSansJP-Bold.otf",
+    "subtitle": "fonts/NotoSansJP-Regular.otf"
+  }
+}
