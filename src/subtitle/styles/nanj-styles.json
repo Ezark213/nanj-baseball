@@ -1,0 +1,264 @@
+{
+  "presets": [
+    {
+      "id": "nanj-default",
+      "name": "なんJ標準",
+      "description": "標準的ななんJ語字幕スタイル",
+      "style": {
+        "fontSize": 48,
+        "fontFamily": "Noto Sans JP",
+        "color": "#FFFFFF",
+        "strokeColor": "#000000",
+        "strokeWidth": 3,
+        "position": "bottom",
+        "maxWidth": 900,
+        "backgroundColor": "rgba(0, 0, 0, 0.7)",
+        "backgroundOpacity": 0.7,
+        "padding": 20,
+        "margin": 40,
+        "lineHeight": 1.4,
+        "textAlign": "center",
+        "shadow": {
+          "offsetX": 2,
+          "offsetY": 2,
+          "blur": 4,
+          "color": "rgba(0, 0, 0, 0.8)"
+        }
+      },
+      "emotionTags": ["neutral"],
+      "useCase": "通常のコメント・解説"
+    },
+    {
+      "id": "nanj-excited",
+      "name": "なんJ興奮",
+      "description": "興奮・喜び表現用のスタイル",
+      "style": {
+        "fontSize": 56,
+        "fontFamily": "Noto Sans JP",
+        "color": "#FFD700",
+        "strokeColor": "#FF6600",
+        "strokeWidth": 4,
+        "position": "center",
+        "maxWidth": 1000,
+        "backgroundColor": "rgba(255, 102, 0, 0.8)",
+        "backgroundOpacity": 0.8,
+        "padding": 25,
+        "margin": 30,
+        "lineHeight": 1.3,
+        "textAlign": "center",
+        "shadow": {
+          "offsetX": 3,
+          "offsetY": 3,
+          "blur": 6,
+          "color": "rgba(0, 0, 0, 0.9)"
+        }
+      },
+      "emotionTags": ["excited", "happy"],
+      "useCase": "ホームラン・好プレー・勝利時"
+    },
+    {
+      "id": "nanj-草",
+      "name": "なんJ草",
+      "description": "草系コメント用のスタイル",
+      "style": {
+        "fontSize": 44,
+        "fontFamily": "Noto Sans JP",
+        "color": "#90EE90",
+        "strokeColor": "#006400",
+        "strokeWidth": 3,
+        "position": "bottom",
+        "maxWidth": 850,
+        "backgroundColor": "rgba(0, 100, 0, 0.6)",
+        "backgroundOpacity": 0.6,
+        "padding": 18,
+        "margin": 35,
+        "lineHeight": 1.4,
+        "textAlign": "center",
+        "shadow": {
+          "offsetX": 2,
+          "offsetY": 2,
+          "blur": 4,
+          "color": "rgba(0, 0, 0, 0.7)"
+        }
+      },
+      "emotionTags": ["funny", "amused"],
+      "useCase": "草・笑い・面白いプレー"
+    },
+    {
+      "id": "nanj-sad",
+      "name": "なんJ悲報",
+      "description": "悲報・残念な場面用のスタイル",
+      "style": {
+        "fontSize": 46,
+        "fontFamily": "Noto Sans JP",
+        "color": "#87CEEB",
+        "strokeColor": "#191970",
+        "strokeWidth": 3,
+        "position": "bottom",
+        "maxWidth": 900,
+        "backgroundColor": "rgba(25, 25, 112, 0.7)",
+        "backgroundOpacity": 0.7,
+        "padding": 20,
+        "margin": 40,
+        "lineHeight": 1.4,
+        "textAlign": "center",
+        "shadow": {
+          "offsetX": 2,
+          "offsetY": 2,
+          "blur": 5,
+          "color": "rgba(0, 0, 0, 0.8)"
+        }
+      },
+      "emotionTags": ["sad", "disappointed"],
+      "useCase": "エラー・敗戦・悲報"
+    },
+    {
+      "id": "nanj-angry",
+      "name": "なんJ怒り",
+      "description": "怒り・不満表現用のスタイル",
+      "style": {
+        "fontSize": 50,
+        "fontFamily": "Noto Sans JP",
+        "color": "#FF6B6B",
+        "strokeColor": "#8B0000",
+        "strokeWidth": 4,
+        "position": "center",
+        "maxWidth": 950,
+        "backgroundColor": "rgba(139, 0, 0, 0.8)",
+        "backgroundOpacity": 0.8,
+        "padding": 22,
+        "margin": 35,
+        "lineHeight": 1.3,
+        "textAlign": "center",
+        "shadow": {
+          "offsetX": 3,
+          "offsetY": 3,
+          "blur": 6,
+          "color": "rgba(0, 0, 0, 0.9)"
+        }
+      },
+      "emotionTags": ["angry", "frustrated"],
+      "useCase": "審判への不満・誤審・イライラ"
+    },
+    {
+      "id": "nanj-whisper",
+      "name": "なんJささやき",
+      "description": "小声・内緒話用のスタイル",
+      "style": {
+        "fontSize": 40,
+        "fontFamily": "Noto Sans JP",
+        "color": "#E6E6FA",
+        "strokeColor": "#483D8B",
+        "strokeWidth": 2,
+        "position": "top",
+        "maxWidth": 800,
+        "backgroundColor": "rgba(72, 61, 139, 0.5)",
+        "backgroundOpacity": 0.5,
+        "padding": 15,
+        "margin": 25,
+        "lineHeight": 1.5,
+        "textAlign": "center",
+        "shadow": {
+          "offsetX": 1,
+          "offsetY": 1,
+          "blur": 3,
+          "color": "rgba(0, 0, 0, 0.6)"
+        }
+      },
+      "emotionTags": ["whisper", "secret"],
+      "useCase": "内緒話・小声コメント・ボソッと発言"
+    },
+    {
+      "id": "nanj-impact",
+      "name": "なんJ衝撃",
+      "description": "衝撃・驚き表現用の大きなスタイル",
+      "style": {
+        "fontSize": 64,
+        "fontFamily": "Noto Sans JP",
+        "color": "#FF1493",
+        "strokeColor": "#8B008B",
+        "strokeWidth": 5,
+        "position": "center",
+        "maxWidth": 1100,
+        "backgroundColor": "rgba(139, 0, 139, 0.9)",
+        "backgroundOpacity": 0.9,
+        "padding": 30,
+        "margin": 25,
+        "lineHeight": 1.2,
+        "textAlign": "center",
+        "shadow": {
+          "offsetX": 4,
+          "offsetY": 4,
+          "blur": 8,
+          "color": "rgba(0, 0, 0, 0.95)"
+        }
+      },
+      "emotionTags": ["shocked", "surprised", "impact"],
+      "useCase": "大谷の化け物プレー・記録達成・衝撃的な出来事"
+    },
+    {
+      "id": "nanj-celebration",
+      "name": "なんJ祝い",
+      "description": "祝福・お祭り騒ぎ用のスタイル",
+      "style": {
+        "fontSize": 52,
+        "fontFamily": "Noto Sans JP",
+        "color": "#FFD700",
+        "strokeColor": "#B8860B",
+        "strokeWidth": 4,
+        "position": "bottom",
+        "maxWidth": 1000,
+        "backgroundColor": "rgba(184, 134, 11, 0.8)",
+        "backgroundOpacity": 0.8,
+        "padding": 25,
+        "margin": 30,
+        "lineHeight": 1.3,
+        "textAlign": "center",
+        "shadow": {
+          "offsetX": 3,
+          "offsetY": 3,
+          "blur": 6,
+          "color": "rgba(0, 0, 0, 0.9)"
+        }
+      },
+      "emotionTags": ["celebration", "victory"],
+      "useCase": "勝利・優勝・記録達成・お祝い"
+    }
+  ],
+  "nanjProcessing": {
+    "termReplacements": {
+      "草": "🌱",
+      "ファッ!?": "ファッ⁉️",
+      "サンガツ": "サンガツ🙏",
+      "有能": "有能👍",
+      "無能": "無能👎",
+      "神": "神✨",
+      "ぐう畜": "ぐう畜😈",
+      "ぐう聖": "ぐう聖😇"
+    },
+    "emotionKeywords": {
+      "excited": ["やったー", "すげー", "やべー", "神", "最高", "完璧", "素晴らしい"],
+      "happy": ["嬉しい", "楽しい", "草", "面白い", "ナイス", "グッジョブ"],
+      "sad": ["悲しい", "つらい", "残念", "だめだ", "終わった", "絶望"],
+      "angry": ["むかつく", "腹立つ", "イライラ", "最悪", "うざい", "ふざけるな"],
+      "funny": ["草", "草生える", "ワロタ", "面白い", "笑える", "クスッと"],
+      "shocked": ["ファッ", "マジかよ", "信じられん", "すげー", "化け物", "異次元"],
+      "celebration": ["勝った", "優勝", "やったー", "最高", "完璧", "神試合"]
+    },
+    "emphasizeTerms": [
+      "ホームラン", "神試合", "完全試合", "ノーヒットノーラン", 
+      "サヨナラ", "逆転", "満塁", "グランドスラム",
+      "大谷", "ダルビッシュ", "前田", "田中将大",
+      "阪神", "巨人", "中日", "広島", "ヤクルト", "DeNA",
+      "オリックス", "ソフトバンク", "楽天", "ロッテ", "西武", "日本ハム"
+    ],
+    "colorMappings": {
+      "ホームラン": "#FFD700",
+      "神試合": "#FF69B4",
+      "草": "#90EE90",
+      "優勝": "#FFD700",
+      "サヨナラ": "#FF6347",
+      "完全試合": "#9370DB"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "name": "nanj-baseball-automation",
+  "version": "1.0.0",
+  "description": "なんJ野球動画自動生成システム - VoiceVox音声自動化 + 字幕生成 + 動画合成",
+  "main": "src/integration/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-esm src/integration/index.ts",
+    "test": "npx ts-node-esm examples/video-generation-test.ts",
+    "test:voice": "npx ts-node-esm examples/voice-automation-example.ts",
+    "clean": "rimraf dist output temp",
+    "setup": "npm install && pip install -r python/requirements.txt",
+    "check": "npx ts-node-esm -e \"import { checkFullSystemHealth } from './src/integration/index.js'; checkFullSystemHealth().then(console.log)\""
+  },
+  "keywords": [
+    "voicevox",
+    "automation",
+    "video",
+    "subtitle",
+    "nanj",
+    "baseball",
+    "typescript",
+    "python"
+  ],
+  "author": "nanj-baseball team",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "sharp": "^0.32.6",
+    "fluent-ffmpeg": "^2.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "@types/fluent-ffmpeg": "^2.1.21",
+    "typescript": "^5.2.2",
+    "ts-node": "^10.9.1",
+    "rimraf": "^5.0.5"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "python": ">=3.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ezark213/nanj-baseball.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ezark213/nanj-baseball/issues"
+  },
+  "homepage": "https://github.com/Ezark213/nanj-baseball#readme"
+}
