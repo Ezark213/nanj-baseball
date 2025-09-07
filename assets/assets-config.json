@@ -1,9 +1,7 @@
 {
   "backgrounds": {
-    "baseball_field": "backgrounds/images/baseball_field.jpg",
-    "night_game": "backgrounds/images/night_game.jpg", 
-    "stadium": "backgrounds/videos/stadium.mp4",
-    "daytime_field": "backgrounds/images/daytime_field.jpg"
+    "baseball_stadium": "backgrounds/videos/baseball_stadium.mp4",
+    "pawapuro_baseball": "backgrounds/videos/pawapuro_baseball.mp4"
   },
   "gifs": {
     "home_run": "gifs/baseball/home_run.gif",
