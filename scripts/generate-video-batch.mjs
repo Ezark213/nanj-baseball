@@ -274,7 +274,7 @@ function runPythonScript(scriptPath, args) {
       if (code === 0) {
         resolve({ stdout, stderr });
       } else {
-        reject(new Error(\`Python script failed with code \${code}: \${stderr}\`));
+        reject(new Error(`Python script failed with code ${code}: ${stderr}`));
       }
     });
     
@@ -317,8 +317,8 @@ async function generateVideoBatch() {
   
   console.log('🎬 音声+字幕から動画一括生成開始！');
   console.log('==========================================');
-  console.log(\`📅 対象日付: \${formattedDate} (\${dateString})\`);
-  console.log(\`🎨 背景タイプ: \${backgroundType}\`);
+  console.log(`📅 対象日付: ${formattedDate} (${dateString})`);
+  console.log(`🎨 背景タイプ: ${backgroundType}`);
   console.log('');
   
   try {
@@ -341,22 +341,22 @@ async function generateVideoBatch() {
     console.log('');
     
     // ディレクトリパス設定
-    const audioDir = path.join(process.cwd(), 'audio', \`nanj-\${formattedDate}\`);
-    const subtitleDir = path.join(process.cwd(), 'subtitles', \`nanj-\${formattedDate}\`);
-    const videoDir = path.join(process.cwd(), 'videos', \`nanj-\${formattedDate}\`);
+    const audioDir = path.join(process.cwd(), 'audio', `nanj-${formattedDate}`);
+    const subtitleDir = path.join(process.cwd(), 'subtitles', `nanj-${formattedDate}`);
+    const videoDir = path.join(process.cwd(), 'videos', `nanj-${formattedDate}`);
     
     // ディレクトリ存在確認
     if (!fs.existsSync(audioDir)) {
-      console.error(\`❌ 音声ディレクトリが見つかりません: \${audioDir}\`);
+      console.error(`❌ 音声ディレクトリが見つかりません: ${audioDir}`);
       console.log('先に音声ファイルを生成してください:');
-      console.log(\`   node scripts/generate-daily-audio.mjs --date=\${dateString}\`);
+      console.log(`   node scripts/generate-daily-audio.mjs --date=${dateString}`);
       process.exit(1);
     }
     
     if (!fs.existsSync(subtitleDir)) {
-      console.error(\`❌ 字幕ディレクトリが見つかりません: \${subtitleDir}\`);
+      console.error(`❌ 字幕ディレクトリが見つかりません: ${subtitleDir}`);
       console.log('先に字幕ファイルを生成してください:');
-      console.log(\`   node scripts/generate-subtitles-batch.mjs --date=\${dateString}\`);
+      console.log(`   node scripts/generate-subtitles-batch.mjs --date=${dateString}`);
       process.exit(1);
     }
     
@@ -365,17 +365,17 @@ async function generateVideoBatch() {
       fs.mkdirSync(videoDir, { recursive: true });
     }
     
-    console.log(\`📁 音声ディレクトリ: \${audioDir}\`);
-    console.log(\`📁 字幕ディレクトリ: \${subtitleDir}\`);
-    console.log(\`📁 動画出力先: \${videoDir}\`);
+    console.log(`📁 音声ディレクトリ: ${audioDir}`);
+    console.log(`📁 字幕ディレクトリ: ${subtitleDir}`);
+    console.log(`📁 動画出力先: ${videoDir}`);
     console.log('');
     
     // ファイル数確認
     const audioFiles = fs.readdirSync(audioDir).filter(file => file.endsWith('.wav'));
     const subtitleFiles = fs.readdirSync(subtitleDir).filter(file => file.endsWith('.png'));
     
-    console.log(\`🎤 音声ファイル: \${audioFiles.length}個\`);
-    console.log(\`🎬 字幕ファイル: \${subtitleFiles.length}個\`);
+    console.log(`🎤 音声ファイル: ${audioFiles.length}個`);
+    console.log(`🎬 字幕ファイル: ${subtitleFiles.length}個`);
     console.log('');
     
     if (audioFiles.length === 0) {
@@ -386,7 +386,7 @@ async function generateVideoBatch() {
     // Python動画生成スクリプトを作成
     console.log('📝 Python動画生成スクリプト作成中...');
     const scriptPath = createVideoPythonScript(videoDir);
-    console.log(\`✅ スクリプト作成完了: \${scriptPath}\`);
+    console.log(`✅ スクリプト作成完了: ${scriptPath}`);
     console.log('');
     
     // Python動画生成実行
@@ -410,14 +410,14 @@ async function generateVideoBatch() {
     
     console.log('🎉 動画生成一括処理完了！');
     console.log('=========================================');
-    console.log(\`📊 最終結果:\`);
-    console.log(\`   対象日付: \${formattedDate} (\${dateString})\`);
-    console.log(\`   音声ファイル数: \${audioFiles.length}個\`);
-    console.log(\`   生成動画数: \${successCount}個\`);
-    console.log(\`   成功率: \${Math.round((successCount/audioFiles.length)*100)}%\`);
-    console.log(\`   総処理時間: \${Math.round(totalTime/1000)}秒\`);
-    console.log(\`   平均処理時間: \${Math.round(totalTime/audioFiles.length/1000)}秒/動画\`);
-    console.log(\`   動画保存先: \${videoDir}\`);
+    console.log(`📊 最終結果:`);
+    console.log(`   対象日付: ${formattedDate} (${dateString})`);
+    console.log(`   音声ファイル数: ${audioFiles.length}個`);
+    console.log(`   生成動画数: ${successCount}個`);
+    console.log(`   成功率: ${Math.round((successCount/audioFiles.length)*100)}%`);
+    console.log(`   総処理時間: ${Math.round(totalTime/1000)}秒`);
+    console.log(`   平均処理時間: ${Math.round(totalTime/audioFiles.length/1000)}秒/動画`);
+    console.log(`   動画保存先: ${videoDir}`);
     console.log('');
     
     // 生成された動画ファイル情報
@@ -426,10 +426,10 @@ async function generateVideoBatch() {
       videoFiles.slice(0, 5).forEach((file, index) => {
         const stats = fs.statSync(path.join(videoDir, file));
         const sizeMB = Math.round(stats.size / (1024 * 1024) * 100) / 100;
-        console.log(\`   \${index + 1}. \${file} (\${sizeMB}MB)\`);
+        console.log(`   ${index + 1}. ${file} (${sizeMB}MB)`);
       });
       if (videoFiles.length > 5) {
-        console.log(\`   ... 他\${videoFiles.length - 5}個のファイル\`);
+        console.log(`   ... 他${videoFiles.length - 5}個のファイル`);
       }
     }
     
@@ -441,13 +441,13 @@ async function generateVideoBatch() {
     });
     
     console.log('');
-    console.log(\`💾 総ファイルサイズ: \${Math.round(totalSizeMB)}MB\`);
-    console.log(\`🎯 平均ファイルサイズ: \${Math.round(totalSizeMB/successCount)}MB/動画\`);
+    console.log(`💾 総ファイルサイズ: ${Math.round(totalSizeMB)}MB`);
+    console.log(`🎯 平均ファイルサイズ: ${Math.round(totalSizeMB/successCount)}MB/動画`);
     console.log('');
     
     console.log('🚀 完全自動化パイプライン完了！');
     console.log('   音声生成 → 字幕生成 → 動画生成');
-    console.log(\`   最終成果物: \${successCount}個の完成動画ファイル\`);
+    console.log(`   最終成果物: ${successCount}個の完成動画ファイル`);
     
     // クリーンアップ
     fs.unlinkSync(scriptPath);
