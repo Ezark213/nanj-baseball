@@ -249,7 +249,13 @@ class VideoComposer:
             raise Exception(f"音声ファイル読み込みエラー: {str(e)}")
     
     def _prepare_background(self, background_path: Optional[str], duration: float, settings: Dict[str, Any]) -> VideoFileClip:
-        """背景動画を準備"""
+        """背景動画を準備（ランダム選択対応）"""
+        bg_settings = {**self.default_settings["background"], **settings.get("background", {})}
+        
+        # ランダム背景動画選択機能
+        if not background_path or background_path == "random":
+            background_path = self._select_random_background_video()
+        
         bg_settings = {**self.default_settings["background"], **settings.get("background", {})}
         
         if background_path and os.path.exists(background_path):
@@ -284,6 +290,35 @@ class VideoComposer:
         
         # デフォルト背景（単色）
         return self._create_default_background(duration)
+    
+    def _select_random_background_video(self) -> Optional[str]:
+        """背景動画フォルダからランダムに1つ選択"""
+        import random
+        import glob
+        
+        # 背景動画フォルダのパス
+        background_video_dir = os.path.join(os.path.dirname(__file__), "..", "assets", "backgrounds", "videos")
+        background_video_path = os.path.abspath(background_video_dir)
+        
+        # 動画ファイルを検索（mp4, avi, mov形式）
+        video_patterns = [
+            os.path.join(background_video_path, "*.mp4"),
+            os.path.join(background_video_path, "*.avi"), 
+            os.path.join(background_video_path, "*.mov")
+        ]
+        
+        video_files = []
+        for pattern in video_patterns:
+            video_files.extend(glob.glob(pattern))
+        
+        if not video_files:
+            logger.warning("背景動画ファイルが見つかりません")
+            return None
+            
+        # ランダムに1つ選択
+        selected_video = random.choice(video_files)
+        logger.info(f"ランダム背景動画選択: {os.path.basename(selected_video)}")
+        return selected_video
     
     def _create_default_background(self, duration: float) -> ColorClip:
         """デフォルト背景を作成"""
