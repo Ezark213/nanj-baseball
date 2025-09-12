@@ -131,6 +131,70 @@ class VideoComposer:
             logger.error(traceback.format_exc())
             raise Exception(f"動画合成に失敗しました: {str(e)}")
     
+    def compose_theme_video(self, theme_config: Dict[str, Any]) -> str:
+        """
+        テーマごとの動画を合成（20個の音声+吹き出しを1つの動画に統合）
+        
+        Args:
+            theme_config: テーマ動画合成設定
+                - theme_name: テーマ名
+                - audio_files: 音声ファイルのリスト（20個）
+                - texts: 対応するテキストのリスト（20個）  
+                - subtitle_images: 字幕画像パスのリスト（オプション）
+                - output_path: 出力パス
+                - settings: 追加設定
+        
+        Returns:
+            str: 出力動画のパス
+        """
+        try:
+            logger.info(f"テーマ動画合成開始: {theme_config.get('theme_name', '不明')}")
+            
+            # 設定の検証
+            self._validate_theme_config(theme_config)
+            
+            # 音声クリップの読み込みと結合
+            combined_audio, audio_timings = self._combine_theme_audios(theme_config["audio_files"])
+            
+            # 背景動画の準備
+            background_clip = self._prepare_background(
+                theme_config.get("background_video"), 
+                combined_audio.duration,
+                theme_config.get("settings", {})
+            )
+            
+            # 複数吹き出しクリップの準備（一時的に無効化）
+            subtitle_clips = []
+            # subtitle_clips = self._prepare_multiple_subtitles(
+            #     theme_config.get("subtitle_images", []),
+            #     theme_config.get("texts", []),
+            #     audio_timings,
+            #     theme_config.get("settings", {})
+            # )
+            
+            # 動画の合成
+            final_video = self._compose_theme_final_video(
+                background_clip,
+                subtitle_clips,
+                combined_audio,
+                theme_config.get("settings", {})
+            )
+            
+            # 出力
+            output_path = self._export_video(final_video, theme_config["output_path"], theme_config.get("settings", {}))
+            
+            # クリーンアップ
+            clips_to_cleanup = [background_clip, combined_audio, final_video] + subtitle_clips
+            self._cleanup_clips(clips_to_cleanup)
+            
+            logger.info(f"テーマ動画合成完了: {output_path}")
+            return output_path
+            
+        except Exception as e:
+            logger.error(f"テーマ動画合成エラー: {str(e)}")
+            logger.error(traceback.format_exc())
+            raise Exception(f"テーマ動画合成に失敗しました: {str(e)}")
+
     def compose_batch_videos(self, configs: List[Dict[str, Any]]) -> List[str]:
         """
         複数動画を一括合成
@@ -364,6 +428,162 @@ class VideoComposer:
                     clip.close()
                 except:
                     pass  # エラーが発生しても継続
+    
+    def _validate_theme_config(self, config: Dict[str, Any]) -> None:
+        """テーマ設定の検証"""
+        required_fields = ["audio_files", "output_path"]
+        
+        for field in required_fields:
+            if field not in config:
+                raise ValueError(f"必須フィールドが不足: {field}")
+        
+        # 音声ファイルリストの確認
+        audio_files = config["audio_files"]
+        if not isinstance(audio_files, list) or len(audio_files) == 0:
+            raise ValueError("audio_filesは空でないリストである必要があります")
+        
+        # ファイル存在確認
+        for i, audio_file in enumerate(audio_files):
+            if not os.path.exists(audio_file):
+                raise FileNotFoundError(f"音声ファイルが見つかりません[{i}]: {audio_file}")
+        
+        # テキスト数の整合性確認
+        texts = config.get("texts", [])
+        if texts and len(texts) != len(audio_files):
+            raise ValueError(f"テキスト数({len(texts)})と音声ファイル数({len(audio_files)})が一致しません")
+        
+        # 出力ディレクトリの作成
+        output_dir = os.path.dirname(config["output_path"])
+        if output_dir and not os.path.exists(output_dir):
+            os.makedirs(output_dir, exist_ok=True)
+    
+    def _combine_theme_audios(self, audio_files: List[str]) -> Tuple[AudioFileClip, List[Tuple[float, float]]]:
+        """テーマの音声ファイルを結合"""
+        try:
+            audio_clips = []
+            timings = []
+            current_time = 0.0
+            
+            for i, audio_file in enumerate(audio_files):
+                audio_clip = AudioFileClip(audio_file)
+                audio_clips.append(audio_clip)
+                
+                # 各音声のタイミング情報を記録
+                start_time = current_time
+                end_time = current_time + audio_clip.duration
+                timings.append((start_time, end_time))
+                current_time = end_time
+                
+                logger.info(f"音声[{i+1}]読み込み: {audio_file} ({audio_clip.duration:.2f}秒)")
+            
+            # 音声を結合（concatenate_audioclips使用）
+            from moviepy.editor import concatenate_audioclips
+            combined_audio = concatenate_audioclips(audio_clips)
+            
+            # 個別クリップのクリーンアップは後で実行
+            # for clip in audio_clips:
+            #     clip.close()
+            
+            logger.info(f"音声結合完了: 総時間 {combined_audio.duration:.2f}秒")
+            return combined_audio, timings
+            
+        except Exception as e:
+            raise Exception(f"音声結合エラー: {str(e)}")
+    
+    def _prepare_multiple_subtitles(
+        self, 
+        subtitle_images: List[str], 
+        texts: List[str], 
+        timings: List[Tuple[float, float]],
+        settings: Dict[str, Any]
+    ) -> List[ImageClip]:
+        """複数の吹き出し字幕を準備"""
+        subtitle_clips = []
+        
+        try:
+            for i, (start_time, end_time) in enumerate(timings):
+                duration = end_time - start_time
+                
+                # 字幕画像または文字による字幕作成
+                subtitle_image = subtitle_images[i] if i < len(subtitle_images) else None
+                text = texts[i] if i < len(texts) else f"コメント{i+1}"
+                
+                subtitle_clip = self._prepare_subtitle(
+                    subtitle_image, 
+                    text, 
+                    duration, 
+                    settings
+                )
+                
+                if subtitle_clip is not None:
+                    # 表示タイミングを設定
+                    subtitle_clip = subtitle_clip.set_start(start_time)
+                    
+                    # 吹き出し位置の自動配置（重複回避）
+                    position = self._calculate_subtitle_position(i, len(timings), settings)
+                    subtitle_clip = subtitle_clip.set_position(position)
+                    
+                    subtitle_clips.append(subtitle_clip)
+                    logger.info(f"吹き出し[{i+1}]準備完了: {start_time:.1f}s-{end_time:.1f}s")
+            
+            logger.info(f"全吹き出し準備完了: {len(subtitle_clips)}個")
+            return subtitle_clips
+            
+        except Exception as e:
+            raise Exception(f"複数吹き出し準備エラー: {str(e)}")
+    
+    def _calculate_subtitle_position(
+        self, 
+        index: int, 
+        total_count: int, 
+        settings: Dict[str, Any]
+    ) -> Tuple[int, int]:
+        """吹き出し位置の自動計算（重複回避）"""
+        # 画面を格子状に分割して配置
+        cols = 3  # 横3列
+        rows = 7  # 縦7行（20個を収容）
+        
+        col = index % cols
+        row = (index // cols) % rows
+        
+        # 画面解像度
+        screen_width, screen_height = self.default_settings["video"]["resolution"]
+        
+        # セクション サイズ
+        section_width = screen_width // cols
+        section_height = screen_height // rows
+        
+        # 位置計算（中央寄せ）
+        x = col * section_width + section_width // 4
+        y = row * section_height + section_height // 4
+        
+        logger.info(f"吹き出し[{index+1}]位置: ({x}, {y})")
+        return (x, y)
+    
+    def _compose_theme_final_video(
+        self,
+        background: VideoFileClip,
+        subtitles: List[ImageClip],
+        audio: AudioFileClip,
+        settings: Dict[str, Any]
+    ) -> CompositeVideoClip:
+        """テーマの最終動画を合成"""
+        clips = [background] + subtitles
+        
+        # 動画合成
+        final_video = CompositeVideoClip(clips)
+        
+        # 音声設定
+        final_audio = audio
+        if background.audio is not None:
+            # 背景音と音声を合成
+            from moviepy.editor import CompositeAudioClip
+            final_audio = CompositeAudioClip([audio, background.audio])
+        
+        final_video = final_video.set_audio(final_audio)
+        
+        logger.info("テーマ動画合成完了")
+        return final_video
     
     def get_video_info(self, video_path: str) -> Dict[str, Any]:
         """動画情報を取得"""
