@@ -459,54 +459,89 @@ class VideoComposer:
             os.makedirs(output_dir, exist_ok=True)
     
     def _combine_theme_audios(self, audio_files: List[str]) -> Tuple[AudioFileClip, List[Tuple[float, float]]]:
-        """テーマの音声ファイルを結合（1分40秒固定）"""
+        """テーマの音声ファイルを結合（1分40秒固定・均等配置）"""
         try:
             TARGET_DURATION = 100.0  # 1分40秒固定
             
-            audio_clips = []
-            timings = []
-            
             # 21等分（タイトル1個 + コメント20個）
             segment_duration = TARGET_DURATION / 21  # 約4.76秒ずつ
-            current_time = 0.0
             
-            # タイトル用のタイミングを記録（最初の区間は無音）
+            timings = []
+            positioned_audio_clips = []
+            
+            # タイトル音声セグメント（最初の4.76秒）
+            title_audio_file = None
+            
+            # タイトル音声ファイルを探索
+            import glob
+            audio_dir = os.path.dirname(audio_files[0]) if audio_files else '.'
+            title_patterns = [
+                os.path.join(audio_dir, 'title_*.wav'),
+                os.path.join(audio_dir, '*title*.wav'),
+                # フォールバック: 最初のコメント音声をタイトルとして使用
+                audio_files[0] if audio_files else None
+            ]
+            
+            for pattern in title_patterns[:2]:  # patternファイル検索
+                matches = glob.glob(pattern)
+                if matches:
+                    title_audio_file = matches[0]
+                    break
+            
+            if not title_audio_file and audio_files:
+                # フォールバック: 最初のコメント音声をタイトルに流用
+                title_audio_file = audio_files[0]
+                logger.info(f"タイトル音声未発見、フォールバック使用: {title_audio_file}")
+            
+            if title_audio_file and os.path.exists(title_audio_file):
+                # 実際のタイトル音声を使用
+                title_audio = AudioFileClip(title_audio_file)
+                if title_audio.duration > segment_duration:
+                    title_audio = title_audio.subclip(0, segment_duration)
+                
+                positioned_audio_clips.append(title_audio.set_start(0))
+                logger.info(f"タイトル音声配置: {title_audio_file} (0.0s-{segment_duration:.2f}s)")
+            else:
+                # フォールバック: 無音
+                from moviepy.editor import AudioClip
+                title_silence = AudioClip(make_frame=lambda t: [0, 0], duration=segment_duration)
+                positioned_audio_clips.append(title_silence.set_start(0))
+                logger.info(f"タイトル用無音セグメント作成: 0.0s-{segment_duration:.2f}s")
+                
             timings.append((0, segment_duration))
             
-            # 20個の音声ファイルを順次処理
+            # 20個の音声ファイルを100秒全体に均等配置
             for i, audio_file in enumerate(audio_files):
                 original_audio = AudioFileClip(audio_file)
                 
-                # 音声を固定時間に調整
+                # 各セグメントの開始時間を計算
+                segment_start = (i + 1) * segment_duration
+                segment_end = segment_start + segment_duration
+                
+                # 音声を必要に応じて調整
                 if original_audio.duration > segment_duration:
                     # 長い場合は切り詰め
                     adjusted_audio = original_audio.subclip(0, segment_duration)
                 else:
-                    # 短い場合はそのまま使用（無音埋めはしない）
+                    # 短い場合はそのまま使用
                     adjusted_audio = original_audio
                 
-                audio_clips.append(adjusted_audio)
+                # 音声を正確な位置に配置
+                positioned_audio = adjusted_audio.set_start(segment_start)
+                positioned_audio_clips.append(positioned_audio)
                 
                 # タイミング情報を記録
-                current_time = (i + 1) * segment_duration
-                start_time = current_time
-                end_time = current_time + segment_duration
-                timings.append((start_time, end_time))
+                timings.append((segment_start, segment_end))
                 
-                logger.info(f"音声[{i+1}]処理: {audio_file} ({original_audio.duration:.2f}s → {adjusted_audio.duration:.2f}s)")
+                logger.info(f"音声[{i+1}]配置: {audio_file} ({segment_start:.2f}s-{segment_end:.2f}s)")
+                # original_audio.close()  # 後でクリーンアップ
             
-            # 全音声を結合
-            from moviepy.editor import concatenate_audioclips
-            combined_audio = concatenate_audioclips(audio_clips)
-            
-            # 100秒に達するまで無音で埋める
-            if combined_audio.duration < TARGET_DURATION:
-                from moviepy.editor import AudioClip
-                remaining_duration = TARGET_DURATION - combined_audio.duration
-                silence_end = AudioClip(make_frame=lambda t: [0, 0], duration=remaining_duration)
-                combined_audio = concatenate_audioclips([combined_audio, silence_end])
+            # 100秒の完全な音声トラックを作成
+            from moviepy.editor import CompositeAudioClip
+            combined_audio = CompositeAudioClip(positioned_audio_clips).set_duration(TARGET_DURATION)
             
             logger.info(f"音声結合完了: 総時間 {combined_audio.duration:.2f}秒 (目標: {TARGET_DURATION}秒)")
+            logger.info(f"21個セグメント配置: タイトル1個 + コメント20個")
             return combined_audio, timings
             
         except Exception as e:

@@ -29,6 +29,9 @@ def main():
     theme1_files = []
     theme1_texts = []
     
+    # サイトから生成されたタイトルを使用
+    theme_title = "【衝撃】9回2死からの劇的逆転勝利ファッ！？"
+    
     for i in range(1, 21):  # theme1_comment1 から theme1_comment20 まで
         # パターンマッチでファイルを検索
         files = list(audio_dir.glob(f"theme1_comment{i}_*.wav"))
@@ -46,7 +49,7 @@ def main():
     
     # テーマ動画設定
     theme_config = {
-        "theme_name": "劇的な逆転勝利", 
+        "theme_name": theme_title,  # サイトから生成されたタイトルを使用
         "audio_files": theme1_files,
         "texts": theme1_texts,  # テキスト字幕を有効化
         "output_path": str(output_dir / "theme1_combined_video.mp4"),
