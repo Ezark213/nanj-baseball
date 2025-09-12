@@ -163,9 +163,10 @@ class VideoComposer:
                 theme_config.get("settings", {})
             )
             
-            # 複数吹き出しクリップの準備（一時的に無効化）
+            # 複数吹き出しクリップの準備（一時的に無効化してまず音声のみテスト）
             subtitle_clips = []
-            # subtitle_clips = self._prepare_multiple_subtitles(
+            # subtitle_clips = self._prepare_title_and_subtitles(
+            #     theme_config.get("theme_name", "テーマ"),
             #     theme_config.get("subtitle_images", []),
             #     theme_config.get("texts", []),
             #     audio_timings,
@@ -458,37 +459,115 @@ class VideoComposer:
             os.makedirs(output_dir, exist_ok=True)
     
     def _combine_theme_audios(self, audio_files: List[str]) -> Tuple[AudioFileClip, List[Tuple[float, float]]]:
-        """テーマの音声ファイルを結合"""
+        """テーマの音声ファイルを結合（1分40秒固定）"""
         try:
+            TARGET_DURATION = 100.0  # 1分40秒固定
+            
             audio_clips = []
             timings = []
+            
+            # 21等分（タイトル1個 + コメント20個）
+            segment_duration = TARGET_DURATION / 21  # 約4.76秒ずつ
             current_time = 0.0
             
-            for i, audio_file in enumerate(audio_files):
-                audio_clip = AudioFileClip(audio_file)
-                audio_clips.append(audio_clip)
-                
-                # 各音声のタイミング情報を記録
-                start_time = current_time
-                end_time = current_time + audio_clip.duration
-                timings.append((start_time, end_time))
-                current_time = end_time
-                
-                logger.info(f"音声[{i+1}]読み込み: {audio_file} ({audio_clip.duration:.2f}秒)")
+            # タイトル用のタイミングを記録（最初の区間は無音）
+            timings.append((0, segment_duration))
             
-            # 音声を結合（concatenate_audioclips使用）
+            # 20個の音声ファイルを順次処理
+            for i, audio_file in enumerate(audio_files):
+                original_audio = AudioFileClip(audio_file)
+                
+                # 音声を固定時間に調整
+                if original_audio.duration > segment_duration:
+                    # 長い場合は切り詰め
+                    adjusted_audio = original_audio.subclip(0, segment_duration)
+                else:
+                    # 短い場合はそのまま使用（無音埋めはしない）
+                    adjusted_audio = original_audio
+                
+                audio_clips.append(adjusted_audio)
+                
+                # タイミング情報を記録
+                current_time = (i + 1) * segment_duration
+                start_time = current_time
+                end_time = current_time + segment_duration
+                timings.append((start_time, end_time))
+                
+                logger.info(f"音声[{i+1}]処理: {audio_file} ({original_audio.duration:.2f}s → {adjusted_audio.duration:.2f}s)")
+            
+            # 全音声を結合
             from moviepy.editor import concatenate_audioclips
             combined_audio = concatenate_audioclips(audio_clips)
             
-            # 個別クリップのクリーンアップは後で実行
-            # for clip in audio_clips:
-            #     clip.close()
+            # 100秒に達するまで無音で埋める
+            if combined_audio.duration < TARGET_DURATION:
+                from moviepy.editor import AudioClip
+                remaining_duration = TARGET_DURATION - combined_audio.duration
+                silence_end = AudioClip(make_frame=lambda t: [0, 0], duration=remaining_duration)
+                combined_audio = concatenate_audioclips([combined_audio, silence_end])
             
-            logger.info(f"音声結合完了: 総時間 {combined_audio.duration:.2f}秒")
+            logger.info(f"音声結合完了: 総時間 {combined_audio.duration:.2f}秒 (目標: {TARGET_DURATION}秒)")
             return combined_audio, timings
             
         except Exception as e:
             raise Exception(f"音声結合エラー: {str(e)}")
+    
+    def _prepare_title_and_subtitles(
+        self,
+        theme_name: str,
+        subtitle_images: List[str], 
+        texts: List[str], 
+        timings: List[Tuple[float, float]],
+        settings: Dict[str, Any]
+    ) -> List[ImageClip]:
+        """タイトル + 複数の吹き出し字幕を準備（計21個）"""
+        subtitle_clips = []
+        
+        try:
+            for i, (start_time, end_time) in enumerate(timings):
+                duration = end_time - start_time
+                
+                if i == 0:
+                    # 最初はタイトル吹き出し
+                    text = theme_name
+                    logger.info(f"タイトル吹き出し準備: '{text}' ({start_time:.1f}s-{end_time:.1f}s)")
+                    
+                    # タイトル専用の大きな吹き出しを画面中央に配置
+                    subtitle_clip = self._create_title_subtitle(text, duration, settings)
+                    if subtitle_clip is not None:
+                        subtitle_clip = subtitle_clip.set_start(start_time)
+                        subtitle_clip = subtitle_clip.set_position('center')
+                        subtitle_clips.append(subtitle_clip)
+                        
+                else:
+                    # 2番目以降はコメント吹き出し
+                    comment_index = i - 1  # タイトルを除くインデックス
+                    text = texts[comment_index] if comment_index < len(texts) else f"コメント{comment_index + 1}"
+                    subtitle_image = subtitle_images[comment_index] if comment_index < len(subtitle_images) else None
+                    
+                    subtitle_clip = self._prepare_subtitle(
+                        subtitle_image, 
+                        text, 
+                        duration, 
+                        settings
+                    )
+                    
+                    if subtitle_clip is not None:
+                        # 表示タイミングを設定
+                        subtitle_clip = subtitle_clip.set_start(start_time)
+                        
+                        # コメント吹き出し位置の自動配置（重複回避）
+                        position = self._calculate_comment_subtitle_position(comment_index, len(timings) - 1, settings)
+                        subtitle_clip = subtitle_clip.set_position(position)
+                        
+                        subtitle_clips.append(subtitle_clip)
+                        logger.info(f"吹き出し[{comment_index + 1}]準備完了: {start_time:.1f}s-{end_time:.1f}s")
+            
+            logger.info(f"全吹き出し準備完了: {len(subtitle_clips)}個 (タイトル1個 + コメント{len(subtitle_clips) - 1}個)")
+            return subtitle_clips
+            
+        except Exception as e:
+            raise Exception(f"吹き出し準備エラー: {str(e)}")
     
     def _prepare_multiple_subtitles(
         self, 
@@ -531,6 +610,53 @@ class VideoComposer:
             
         except Exception as e:
             raise Exception(f"複数吹き出し準備エラー: {str(e)}")
+    
+    def _create_title_subtitle(self, title_text: str, duration: float, settings: Dict[str, Any]) -> TextClip:
+        """タイトル専用の大きな字幕を作成"""
+        try:
+            title_clip = TextClip(
+                title_text,
+                fontsize=72,  # 大きなフォントサイズ
+                color='white',
+                font='Arial',
+                stroke_color='red',  # 赤い縁取り
+                stroke_width=4
+            ).set_duration(duration)
+            
+            logger.info(f"タイトル字幕作成: '{title_text}'")
+            return title_clip
+            
+        except Exception as e:
+            logger.warning(f"タイトル字幕作成失敗: {str(e)}")
+            return None
+    
+    def _calculate_comment_subtitle_position(
+        self, 
+        index: int, 
+        total_count: int, 
+        settings: Dict[str, Any]
+    ) -> Tuple[int, int]:
+        """コメント吹き出し位置の自動計算（重複回避）"""
+        # 画面を格子状に分割して配置（20個のコメント用）
+        cols = 4  # 横4列
+        rows = 5  # 縦5行（20個を収容）
+        
+        col = index % cols
+        row = (index // cols) % rows
+        
+        # 画面解像度
+        screen_width, screen_height = self.default_settings["video"]["resolution"]
+        
+        # セクション サイズ
+        section_width = screen_width // cols
+        section_height = screen_height // rows
+        
+        # 位置計算（中央寄せ）
+        x = col * section_width + section_width // 4
+        y = row * section_height + section_height // 4
+        
+        logger.info(f"コメント吹き出し[{index+1}]位置: ({x}, {y})")
+        return (x, y)
     
     def _calculate_subtitle_position(
         self, 

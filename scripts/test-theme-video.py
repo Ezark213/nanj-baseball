@@ -48,7 +48,7 @@ def main():
     theme_config = {
         "theme_name": "劇的な逆転勝利", 
         "audio_files": theme1_files,
-        # "texts": theme1_texts,  # テキスト字幕を無効化（ImageMagick問題回避）
+        "texts": theme1_texts,  # テキスト字幕を有効化
         "output_path": str(output_dir / "theme1_combined_video.mp4"),
         "settings": {
             "video": {
