@@ -1,0 +1,1677 @@
+2025-09-12 20:26:21,536 - INFO - 動画合成開始: videos/recovery-test-phase5.mp4
+2025-09-12 20:26:21,728 - INFO - 音声読み込み完了: audio/nanj-2025-09-11/theme1_comment1_zundamon-normal_20250911.wav (2.42秒)
+2025-09-12 20:26:21,747 - INFO - デフォルト背景（緑色）を作成
+2025-09-12 20:26:21,748 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 20:26:21,790 - INFO - 動画合成完了
+2025-09-12 20:26:25,006 - INFO - 動画出力完了: videos/recovery-test-phase5.mp4
+2025-09-12 20:26:25,007 - INFO - 動画合成完了: videos/recovery-test-phase5.mp4
+2025-09-12 20:27:28,752 - INFO - 動画合成開始: videos/direct-test-1.mp4
+2025-09-12 20:27:28,960 - INFO - 音声読み込み完了: audio/nanj-2025-09-11/theme1_comment1_zundamon-normal_20250911.wav (2.42秒)
+2025-09-12 20:27:28,975 - INFO - デフォルト背景（緑色）を作成
+2025-09-12 20:27:28,976 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 20:27:29,005 - INFO - 動画合成完了
+2025-09-12 20:27:32,341 - INFO - 動画出力完了: videos/direct-test-1.mp4
+2025-09-12 20:27:32,342 - INFO - 動画合成完了: videos/direct-test-1.mp4
+2025-09-12 20:27:38,194 - INFO - 動画合成開始: videos/direct-test-2.mp4
+2025-09-12 20:27:38,410 - INFO - 音声読み込み完了: audio/nanj-2025-09-11/theme1_comment2_zundamon-amaama_20250911.wav (2.09秒)
+2025-09-12 20:27:38,432 - INFO - デフォルト背景（緑色）を作成
+2025-09-12 20:27:38,433 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 20:27:38,475 - INFO - 動画合成完了
+2025-09-12 20:27:41,216 - INFO - 動画出力完了: videos/direct-test-2.mp4
+2025-09-12 20:27:41,216 - INFO - 動画合成完了: videos/direct-test-2.mp4
+2025-09-12 20:34:39,830 - INFO - 動画合成開始: videos/nanj-2025-09-12/test-video-1.mp4
+2025-09-12 20:34:40,043 - INFO - 音声読み込み完了: audio/nanj-2025-09-12/theme1_comment1_zundamon-normal_20250912.wav (2.42秒)
+2025-09-12 20:34:40,063 - INFO - デフォルト背景（緑色）を作成
+2025-09-12 20:34:40,064 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 20:34:40,104 - INFO - 動画合成完了
+2025-09-12 20:34:43,190 - INFO - 動画出力完了: videos/nanj-2025-09-12/test-video-1.mp4
+2025-09-12 20:34:43,191 - INFO - 動画合成完了: videos/nanj-2025-09-12/test-video-1.mp4
+2025-09-12 20:34:49,723 - INFO - 動画合成開始: videos/nanj-2025-09-12/test-video-2.mp4
+2025-09-12 20:34:49,911 - INFO - 音声読み込み完了: audio/nanj-2025-09-12/theme1_comment2_zundamon-amaama_20250912.wav (2.09秒)
+2025-09-12 20:34:49,924 - INFO - デフォルト背景（緑色）を作成
+2025-09-12 20:34:49,926 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 20:34:49,958 - INFO - 動画合成完了
+2025-09-12 20:34:52,193 - INFO - 動画出力完了: videos/nanj-2025-09-12/test-video-2.mp4
+2025-09-12 20:34:52,194 - INFO - 動画合成完了: videos/nanj-2025-09-12/test-video-2.mp4
+2025-09-12 20:41:45,074 - INFO - 動画合成開始: videos/nanj-2025-09-12/test-video-3.mp4
+2025-09-12 20:41:45,250 - INFO - 音声読み込み完了: audio/nanj-2025-09-12/theme1_comment3_zundamon-tsuntsun_20250912.wav (1.66秒)
+2025-09-12 20:41:45,262 - INFO - デフォルト背景（緑色）を作成
+2025-09-12 20:41:45,263 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 20:41:45,292 - INFO - 動画合成完了
+2025-09-12 20:41:47,000 - INFO - 動画出力完了: videos/nanj-2025-09-12/test-video-3.mp4
+2025-09-12 20:41:47,001 - INFO - 動画合成完了: videos/nanj-2025-09-12/test-video-3.mp4
+2025-09-12 20:41:54,242 - INFO - 動画合成開始: videos/nanj-2025-09-12/test-video-4.mp4
+2025-09-12 20:41:54,423 - INFO - 音声読み込み完了: audio/nanj-2025-09-12/theme2_comment1_zundamon-tsuntsun_20250912.wav (1.90秒)
+2025-09-12 20:41:54,435 - INFO - デフォルト背景（緑色）を作成
+2025-09-12 20:41:54,436 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 20:41:54,464 - INFO - 動画合成完了
+2025-09-12 20:41:56,324 - INFO - 動画出力完了: videos/nanj-2025-09-12/test-video-4.mp4
+2025-09-12 20:41:56,325 - INFO - 動画合成完了: videos/nanj-2025-09-12/test-video-4.mp4
+2025-09-12 20:42:02,642 - INFO - 動画合成開始: videos/nanj-2025-09-12/test-video-5.mp4
+2025-09-12 20:42:02,821 - INFO - 音声読み込み完了: audio/nanj-2025-09-12/theme3_comment1_metan-normal_20250912.wav (2.76秒)
+2025-09-12 20:42:02,833 - INFO - デフォルト背景（緑色）を作成
+2025-09-12 20:42:02,834 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 20:42:02,863 - INFO - 動画合成完了
+2025-09-12 20:42:05,364 - INFO - 動画出力完了: videos/nanj-2025-09-12/test-video-5.mp4
+2025-09-12 20:42:05,365 - INFO - 動画合成完了: videos/nanj-2025-09-12/test-video-5.mp4
+2025-09-12 21:15:36,205 - INFO - テーマ動画合成開始: 劇的な逆転勝利
+2025-09-12 21:15:36,455 - INFO - 音声[1]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment1_zundamon-normal_20250912.wav (2.42秒)
+2025-09-12 21:15:36,635 - INFO - 音声[2]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment2_zundamon-amaama_20250912.wav (2.09秒)
+2025-09-12 21:15:36,821 - INFO - 音声[3]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment3_zundamon-tsuntsun_20250912.wav (1.66秒)
+2025-09-12 21:15:37,003 - INFO - 音声[4]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment4_zundamon-sexy_20250912.wav (2.46秒)
+2025-09-12 21:15:37,190 - INFO - 音声[5]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment5_metan-normal_20250912.wav (1.91秒)
+2025-09-12 21:15:37,401 - INFO - 音声[6]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment6_metan-amaama_20250912.wav (2.43秒)
+2025-09-12 21:15:37,591 - INFO - 音声[7]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment7_zundamon-normal_20250912.wav (1.75秒)
+2025-09-12 21:15:37,778 - INFO - 音声[8]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment8_zundamon-amaama_20250912.wav (2.45秒)
+2025-09-12 21:15:37,960 - INFO - 音声[9]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment9_zundamon-tsuntsun_20250912.wav (1.81秒)
+2025-09-12 21:15:38,145 - INFO - 音声[10]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment10_zundamon-sexy_20250912.wav (2.42秒)
+2025-09-12 21:15:38,369 - INFO - 音声[11]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment11_metan-normal_20250912.wav (2.19秒)
+2025-09-12 21:15:38,586 - INFO - 音声[12]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment12_metan-amaama_20250912.wav (2.65秒)
+2025-09-12 21:15:38,799 - INFO - 音声[13]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment13_zundamon-normal_20250912.wav (2.56秒)
+2025-09-12 21:15:39,011 - INFO - 音声[14]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment14_zundamon-amaama_20250912.wav (2.26秒)
+2025-09-12 21:15:39,200 - INFO - 音声[15]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment15_zundamon-tsuntsun_20250912.wav (1.85秒)
+2025-09-12 21:15:39,403 - INFO - 音声[16]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment16_zundamon-sexy_20250912.wav (2.39秒)
+2025-09-12 21:15:39,601 - INFO - 音声[17]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment17_metan-normal_20250912.wav (2.44秒)
+2025-09-12 21:15:39,794 - INFO - 音声[18]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment18_metan-amaama_20250912.wav (3.33秒)
+2025-09-12 21:15:39,976 - INFO - 音声[19]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment19_zundamon-normal_20250912.wav (2.11秒)
+2025-09-12 21:15:40,161 - INFO - 音声[20]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment20_zundamon-amaama_20250912.wav (3.09秒)
+2025-09-12 21:15:40,164 - INFO - 音声結合完了: 総時間 46.27秒
+2025-09-12 21:15:40,175 - INFO - デフォルト背景（緑色）を作成
+2025-09-12 21:15:40,177 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:15:40,178 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:15:40,179 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:15:40,180 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:15:40,181 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:15:40,182 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:15:40,183 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:15:40,184 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:15:40,184 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:15:40,185 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:15:40,186 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:15:40,187 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:15:40,187 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:15:40,188 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:15:40,189 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:15:40,190 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:15:40,191 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:15:40,191 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:15:40,192 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:15:40,193 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:15:40,193 - INFO - 全吹き出し準備完了: 0個
+2025-09-12 21:15:40,229 - INFO - テーマ動画合成完了
+2025-09-12 21:15:40,240 - ERROR - テーマ動画合成エラー: 動画出力エラー: 'NoneType' object has no attribute 'get_frame'
+2025-09-12 21:15:40,312 - ERROR - Traceback (most recent call last):
+  File "C:\Users\pukur\nanj-baseball\python\video_composer.py", line 404, in _export_video
+    video.write_videofile(
+    ~~~~~~~~~~~~~~~~~~~~~^
+        output_path,
+        ^^^^^^^^^^^^
+    ...<7 lines>...
+        logger=None
+        ^^^^^^^^^^^
+    )
+    ^
+  File "<decorator-gen-55>", line 2, in write_videofile
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 54, in requires_duration
+    return f(clip, *a, **k)
+  File "<decorator-gen-54>", line 2, in write_videofile
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 135, in use_clip_fps_by_default
+    return f(clip, *new_a, **new_kw)
+  File "<decorator-gen-53>", line 2, in write_videofile
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 22, in convert_masks_to_RGB
+    return f(clip, *a, **k)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\video\VideoClip.py", line 293, in write_videofile
+    self.audio.write_audiofile(audiofile, audio_fps,
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+                               audio_nbytes, audio_bufsize,
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+                               verbose=verbose,
+                               ^^^^^^^^^^^^^^^^
+                               logger=logger)
+                               ^^^^^^^^^^^^^^
+  File "<decorator-gen-45>", line 2, in write_audiofile
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 54, in requires_duration
+    return f(clip, *a, **k)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\AudioClip.py", line 206, in write_audiofile
+    return ffmpeg_audiowrite(self, filename, fps, nbytes, buffersize,
+                             codec=codec, bitrate=bitrate,
+                             write_logfile=write_logfile, verbose=verbose,
+                             ffmpeg_params=ffmpeg_params,
+                             logger=logger)
+  File "<decorator-gen-9>", line 2, in ffmpeg_audiowrite
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 54, in requires_duration
+    return f(clip, *a, **k)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\io\ffmpeg_audiowriter.py", line 166, in ffmpeg_audiowrite
+    for chunk in clip.iter_chunks(chunksize=buffersize,
+                 ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+                                  quantize=True,
+                                  ^^^^^^^^^^^^^^
+                                  nbytes=nbytes, fps=fps,
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+                                  logger=logger):
+                                  ^^^^^^^^^^^^^^
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\AudioClip.py", line 85, in iter_chunks
+    yield self.to_soundarray(tt, nbytes=nbytes, quantize=quantize,
+          ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                fps=fps, buffersize=chunksize)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<decorator-gen-44>", line 2, in to_soundarray
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 54, in requires_duration
+    return f(clip, *a, **k)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\AudioClip.py", line 127, in to_soundarray
+    snd_array = self.get_frame(tt)
+  File "<decorator-gen-11>", line 2, in get_frame
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 89, in wrapper
+    return f(*new_a, **new_kw)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\Clip.py", line 93, in get_frame
+    return self.make_frame(t)
+           ~~~~~~~~~~~~~~~^^^
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\AudioClip.py", line 296, in make_frame
+    sounds = [c.get_frame(t - c.start)*np.array([part]).T
+              ~~~~~~~~~~~^^^^^^^^^^^^^
+  File "<decorator-gen-11>", line 2, in get_frame
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 89, in wrapper
+    return f(*new_a, **new_kw)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\Clip.py", line 93, in get_frame
+    return self.make_frame(t)
+           ~~~~~~~~~~~~~~~^^^
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\io\AudioFileClip.py", line 77, in <lambda>
+    self.make_frame = lambda t: self.reader.get_frame(t)
+                                ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get_frame'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pukur\nanj-baseball\python\video_composer.py", line 183, in compose_theme_video
+    output_path = self._export_video(final_video, theme_config["output_path"], theme_config.get("settings", {}))
+  File "C:\Users\pukur\nanj-baseball\python\video_composer.py", line 420, in _export_video
+    raise Exception(f"動画出力エラー: {str(e)}")
+Exception: 動画出力エラー: 'NoneType' object has no attribute 'get_frame'
+
+2025-09-12 21:16:12,124 - INFO - テーマ動画合成開始: 劇的な逆転勝利
+2025-09-12 21:16:12,322 - INFO - 音声[1]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment1_zundamon-normal_20250912.wav (2.42秒)
+2025-09-12 21:16:12,512 - INFO - 音声[2]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment2_zundamon-amaama_20250912.wav (2.09秒)
+2025-09-12 21:16:12,689 - INFO - 音声[3]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment3_zundamon-tsuntsun_20250912.wav (1.66秒)
+2025-09-12 21:16:12,865 - INFO - 音声[4]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment4_zundamon-sexy_20250912.wav (2.46秒)
+2025-09-12 21:16:13,041 - INFO - 音声[5]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment5_metan-normal_20250912.wav (1.91秒)
+2025-09-12 21:16:13,234 - INFO - 音声[6]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment6_metan-amaama_20250912.wav (2.43秒)
+2025-09-12 21:16:13,427 - INFO - 音声[7]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment7_zundamon-normal_20250912.wav (1.75秒)
+2025-09-12 21:16:13,603 - INFO - 音声[8]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment8_zundamon-amaama_20250912.wav (2.45秒)
+2025-09-12 21:16:13,778 - INFO - 音声[9]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment9_zundamon-tsuntsun_20250912.wav (1.81秒)
+2025-09-12 21:16:13,957 - INFO - 音声[10]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment10_zundamon-sexy_20250912.wav (2.42秒)
+2025-09-12 21:16:14,142 - INFO - 音声[11]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment11_metan-normal_20250912.wav (2.19秒)
+2025-09-12 21:16:14,346 - INFO - 音声[12]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment12_metan-amaama_20250912.wav (2.65秒)
+2025-09-12 21:16:14,528 - INFO - 音声[13]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment13_zundamon-normal_20250912.wav (2.56秒)
+2025-09-12 21:16:14,704 - INFO - 音声[14]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment14_zundamon-amaama_20250912.wav (2.26秒)
+2025-09-12 21:16:14,881 - INFO - 音声[15]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment15_zundamon-tsuntsun_20250912.wav (1.85秒)
+2025-09-12 21:16:15,058 - INFO - 音声[16]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment16_zundamon-sexy_20250912.wav (2.39秒)
+2025-09-12 21:16:15,242 - INFO - 音声[17]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment17_metan-normal_20250912.wav (2.44秒)
+2025-09-12 21:16:15,447 - INFO - 音声[18]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment18_metan-amaama_20250912.wav (3.33秒)
+2025-09-12 21:16:15,642 - INFO - 音声[19]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment19_zundamon-normal_20250912.wav (2.11秒)
+2025-09-12 21:16:15,822 - INFO - 音声[20]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment20_zundamon-amaama_20250912.wav (3.09秒)
+2025-09-12 21:16:15,825 - INFO - 音声結合完了: 総時間 46.27秒
+2025-09-12 21:16:15,837 - INFO - デフォルト背景（緑色）を作成
+2025-09-12 21:16:15,839 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:16:15,840 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:16:15,841 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:16:15,842 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:16:15,843 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:16:15,844 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:16:15,845 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:16:15,846 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:16:15,847 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:16:15,847 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:16:15,848 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:16:15,849 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:16:15,850 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:16:15,851 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:16:15,852 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:16:15,852 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:16:15,853 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:16:15,854 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:16:15,855 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:16:15,856 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 21:16:15,856 - INFO - 全吹き出し準備完了: 0個
+2025-09-12 21:16:15,886 - INFO - テーマ動画合成完了
+2025-09-12 21:16:15,896 - ERROR - テーマ動画合成エラー: 動画出力エラー: 'NoneType' object has no attribute 'get_frame'
+2025-09-12 21:16:15,901 - ERROR - Traceback (most recent call last):
+  File "C:\Users\pukur\nanj-baseball\python\video_composer.py", line 404, in _export_video
+    video.write_videofile(
+    ~~~~~~~~~~~~~~~~~~~~~^
+        output_path,
+        ^^^^^^^^^^^^
+    ...<7 lines>...
+        logger=None
+        ^^^^^^^^^^^
+    )
+    ^
+  File "<decorator-gen-55>", line 2, in write_videofile
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 54, in requires_duration
+    return f(clip, *a, **k)
+  File "<decorator-gen-54>", line 2, in write_videofile
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 135, in use_clip_fps_by_default
+    return f(clip, *new_a, **new_kw)
+  File "<decorator-gen-53>", line 2, in write_videofile
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 22, in convert_masks_to_RGB
+    return f(clip, *a, **k)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\video\VideoClip.py", line 293, in write_videofile
+    self.audio.write_audiofile(audiofile, audio_fps,
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+                               audio_nbytes, audio_bufsize,
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+                               verbose=verbose,
+                               ^^^^^^^^^^^^^^^^
+                               logger=logger)
+                               ^^^^^^^^^^^^^^
+  File "<decorator-gen-45>", line 2, in write_audiofile
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 54, in requires_duration
+    return f(clip, *a, **k)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\AudioClip.py", line 206, in write_audiofile
+    return ffmpeg_audiowrite(self, filename, fps, nbytes, buffersize,
+                             codec=codec, bitrate=bitrate,
+                             write_logfile=write_logfile, verbose=verbose,
+                             ffmpeg_params=ffmpeg_params,
+                             logger=logger)
+  File "<decorator-gen-9>", line 2, in ffmpeg_audiowrite
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 54, in requires_duration
+    return f(clip, *a, **k)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\io\ffmpeg_audiowriter.py", line 166, in ffmpeg_audiowrite
+    for chunk in clip.iter_chunks(chunksize=buffersize,
+                 ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+                                  quantize=True,
+                                  ^^^^^^^^^^^^^^
+                                  nbytes=nbytes, fps=fps,
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+                                  logger=logger):
+                                  ^^^^^^^^^^^^^^
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\AudioClip.py", line 85, in iter_chunks
+    yield self.to_soundarray(tt, nbytes=nbytes, quantize=quantize,
+          ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                fps=fps, buffersize=chunksize)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<decorator-gen-44>", line 2, in to_soundarray
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 54, in requires_duration
+    return f(clip, *a, **k)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\AudioClip.py", line 127, in to_soundarray
+    snd_array = self.get_frame(tt)
+  File "<decorator-gen-11>", line 2, in get_frame
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 89, in wrapper
+    return f(*new_a, **new_kw)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\Clip.py", line 93, in get_frame
+    return self.make_frame(t)
+           ~~~~~~~~~~~~~~~^^^
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\AudioClip.py", line 296, in make_frame
+    sounds = [c.get_frame(t - c.start)*np.array([part]).T
+              ~~~~~~~~~~~^^^^^^^^^^^^^
+  File "<decorator-gen-11>", line 2, in get_frame
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 89, in wrapper
+    return f(*new_a, **new_kw)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\Clip.py", line 93, in get_frame
+    return self.make_frame(t)
+           ~~~~~~~~~~~~~~~^^^
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\io\AudioFileClip.py", line 77, in <lambda>
+    self.make_frame = lambda t: self.reader.get_frame(t)
+                                ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get_frame'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pukur\nanj-baseball\python\video_composer.py", line 183, in compose_theme_video
+    output_path = self._export_video(final_video, theme_config["output_path"], theme_config.get("settings", {}))
+  File "C:\Users\pukur\nanj-baseball\python\video_composer.py", line 420, in _export_video
+    raise Exception(f"動画出力エラー: {str(e)}")
+Exception: 動画出力エラー: 'NoneType' object has no attribute 'get_frame'
+
+2025-09-12 21:16:32,382 - INFO - テーマ動画合成開始: 劇的な逆転勝利
+2025-09-12 21:16:32,585 - INFO - 音声[1]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment1_zundamon-normal_20250912.wav (2.42秒)
+2025-09-12 21:16:32,766 - INFO - 音声[2]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment2_zundamon-amaama_20250912.wav (2.09秒)
+2025-09-12 21:16:32,943 - INFO - 音声[3]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment3_zundamon-tsuntsun_20250912.wav (1.66秒)
+2025-09-12 21:16:33,122 - INFO - 音声[4]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment4_zundamon-sexy_20250912.wav (2.46秒)
+2025-09-12 21:16:33,305 - INFO - 音声[5]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment5_metan-normal_20250912.wav (1.91秒)
+2025-09-12 21:16:33,493 - INFO - 音声[6]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment6_metan-amaama_20250912.wav (2.43秒)
+2025-09-12 21:16:33,686 - INFO - 音声[7]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment7_zundamon-normal_20250912.wav (1.75秒)
+2025-09-12 21:16:33,864 - INFO - 音声[8]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment8_zundamon-amaama_20250912.wav (2.45秒)
+2025-09-12 21:16:34,041 - INFO - 音声[9]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment9_zundamon-tsuntsun_20250912.wav (1.81秒)
+2025-09-12 21:16:34,217 - INFO - 音声[10]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment10_zundamon-sexy_20250912.wav (2.42秒)
+2025-09-12 21:16:34,395 - INFO - 音声[11]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment11_metan-normal_20250912.wav (2.19秒)
+2025-09-12 21:16:34,586 - INFO - 音声[12]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment12_metan-amaama_20250912.wav (2.65秒)
+2025-09-12 21:16:34,770 - INFO - 音声[13]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment13_zundamon-normal_20250912.wav (2.56秒)
+2025-09-12 21:16:34,950 - INFO - 音声[14]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment14_zundamon-amaama_20250912.wav (2.26秒)
+2025-09-12 21:16:35,132 - INFO - 音声[15]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment15_zundamon-tsuntsun_20250912.wav (1.85秒)
+2025-09-12 21:16:35,312 - INFO - 音声[16]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment16_zundamon-sexy_20250912.wav (2.39秒)
+2025-09-12 21:16:35,489 - INFO - 音声[17]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment17_metan-normal_20250912.wav (2.44秒)
+2025-09-12 21:16:35,702 - INFO - 音声[18]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment18_metan-amaama_20250912.wav (3.33秒)
+2025-09-12 21:16:35,883 - INFO - 音声[19]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment19_zundamon-normal_20250912.wav (2.11秒)
+2025-09-12 21:16:36,070 - INFO - 音声[20]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment20_zundamon-amaama_20250912.wav (3.09秒)
+2025-09-12 21:16:36,074 - INFO - 音声結合完了: 総時間 46.27秒
+2025-09-12 21:16:36,086 - INFO - デフォルト背景（緑色）を作成
+2025-09-12 21:16:36,117 - INFO - テーマ動画合成完了
+2025-09-12 21:16:36,126 - ERROR - テーマ動画合成エラー: 動画出力エラー: 'NoneType' object has no attribute 'get_frame'
+2025-09-12 21:16:36,131 - ERROR - Traceback (most recent call last):
+  File "C:\Users\pukur\nanj-baseball\python\video_composer.py", line 405, in _export_video
+    video.write_videofile(
+    ~~~~~~~~~~~~~~~~~~~~~^
+        output_path,
+        ^^^^^^^^^^^^
+    ...<7 lines>...
+        logger=None
+        ^^^^^^^^^^^
+    )
+    ^
+  File "<decorator-gen-55>", line 2, in write_videofile
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 54, in requires_duration
+    return f(clip, *a, **k)
+  File "<decorator-gen-54>", line 2, in write_videofile
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 135, in use_clip_fps_by_default
+    return f(clip, *new_a, **new_kw)
+  File "<decorator-gen-53>", line 2, in write_videofile
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 22, in convert_masks_to_RGB
+    return f(clip, *a, **k)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\video\VideoClip.py", line 293, in write_videofile
+    self.audio.write_audiofile(audiofile, audio_fps,
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+                               audio_nbytes, audio_bufsize,
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+                               verbose=verbose,
+                               ^^^^^^^^^^^^^^^^
+                               logger=logger)
+                               ^^^^^^^^^^^^^^
+  File "<decorator-gen-45>", line 2, in write_audiofile
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 54, in requires_duration
+    return f(clip, *a, **k)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\AudioClip.py", line 206, in write_audiofile
+    return ffmpeg_audiowrite(self, filename, fps, nbytes, buffersize,
+                             codec=codec, bitrate=bitrate,
+                             write_logfile=write_logfile, verbose=verbose,
+                             ffmpeg_params=ffmpeg_params,
+                             logger=logger)
+  File "<decorator-gen-9>", line 2, in ffmpeg_audiowrite
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 54, in requires_duration
+    return f(clip, *a, **k)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\io\ffmpeg_audiowriter.py", line 166, in ffmpeg_audiowrite
+    for chunk in clip.iter_chunks(chunksize=buffersize,
+                 ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+                                  quantize=True,
+                                  ^^^^^^^^^^^^^^
+                                  nbytes=nbytes, fps=fps,
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+                                  logger=logger):
+                                  ^^^^^^^^^^^^^^
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\AudioClip.py", line 85, in iter_chunks
+    yield self.to_soundarray(tt, nbytes=nbytes, quantize=quantize,
+          ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                fps=fps, buffersize=chunksize)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<decorator-gen-44>", line 2, in to_soundarray
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 54, in requires_duration
+    return f(clip, *a, **k)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\AudioClip.py", line 127, in to_soundarray
+    snd_array = self.get_frame(tt)
+  File "<decorator-gen-11>", line 2, in get_frame
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 89, in wrapper
+    return f(*new_a, **new_kw)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\Clip.py", line 93, in get_frame
+    return self.make_frame(t)
+           ~~~~~~~~~~~~~~~^^^
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\AudioClip.py", line 296, in make_frame
+    sounds = [c.get_frame(t - c.start)*np.array([part]).T
+              ~~~~~~~~~~~^^^^^^^^^^^^^
+  File "<decorator-gen-11>", line 2, in get_frame
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 89, in wrapper
+    return f(*new_a, **new_kw)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\Clip.py", line 93, in get_frame
+    return self.make_frame(t)
+           ~~~~~~~~~~~~~~~^^^
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\io\AudioFileClip.py", line 77, in <lambda>
+    self.make_frame = lambda t: self.reader.get_frame(t)
+                                ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get_frame'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pukur\nanj-baseball\python\video_composer.py", line 184, in compose_theme_video
+    output_path = self._export_video(final_video, theme_config["output_path"], theme_config.get("settings", {}))
+  File "C:\Users\pukur\nanj-baseball\python\video_composer.py", line 421, in _export_video
+    raise Exception(f"動画出力エラー: {str(e)}")
+Exception: 動画出力エラー: 'NoneType' object has no attribute 'get_frame'
+
+2025-09-12 21:17:00,116 - INFO - テーマ動画合成開始: 劇的な逆転勝利
+2025-09-12 21:17:00,310 - INFO - 音声[1]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment1_zundamon-normal_20250912.wav (2.42秒)
+2025-09-12 21:17:00,484 - INFO - 音声[2]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment2_zundamon-amaama_20250912.wav (2.09秒)
+2025-09-12 21:17:00,657 - INFO - 音声[3]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment3_zundamon-tsuntsun_20250912.wav (1.66秒)
+2025-09-12 21:17:00,831 - INFO - 音声[4]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment4_zundamon-sexy_20250912.wav (2.46秒)
+2025-09-12 21:17:01,007 - INFO - 音声[5]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment5_metan-normal_20250912.wav (1.91秒)
+2025-09-12 21:17:01,220 - INFO - 音声[6]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment6_metan-amaama_20250912.wav (2.43秒)
+2025-09-12 21:17:01,412 - INFO - 音声[7]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment7_zundamon-normal_20250912.wav (1.75秒)
+2025-09-12 21:17:01,590 - INFO - 音声[8]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment8_zundamon-amaama_20250912.wav (2.45秒)
+2025-09-12 21:17:01,767 - INFO - 音声[9]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment9_zundamon-tsuntsun_20250912.wav (1.81秒)
+2025-09-12 21:17:01,943 - INFO - 音声[10]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment10_zundamon-sexy_20250912.wav (2.42秒)
+2025-09-12 21:17:02,119 - INFO - 音声[11]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment11_metan-normal_20250912.wav (2.19秒)
+2025-09-12 21:17:02,313 - INFO - 音声[12]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment12_metan-amaama_20250912.wav (2.65秒)
+2025-09-12 21:17:02,501 - INFO - 音声[13]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment13_zundamon-normal_20250912.wav (2.56秒)
+2025-09-12 21:17:02,678 - INFO - 音声[14]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment14_zundamon-amaama_20250912.wav (2.26秒)
+2025-09-12 21:17:02,855 - INFO - 音声[15]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment15_zundamon-tsuntsun_20250912.wav (1.85秒)
+2025-09-12 21:17:03,033 - INFO - 音声[16]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment16_zundamon-sexy_20250912.wav (2.39秒)
+2025-09-12 21:17:03,210 - INFO - 音声[17]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment17_metan-normal_20250912.wav (2.44秒)
+2025-09-12 21:17:03,415 - INFO - 音声[18]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment18_metan-amaama_20250912.wav (3.33秒)
+2025-09-12 21:17:03,594 - INFO - 音声[19]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment19_zundamon-normal_20250912.wav (2.11秒)
+2025-09-12 21:17:03,780 - INFO - 音声[20]読み込み: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment20_zundamon-amaama_20250912.wav (3.09秒)
+2025-09-12 21:17:03,781 - INFO - 音声結合完了: 総時間 46.27秒
+2025-09-12 21:17:03,793 - INFO - デフォルト背景（緑色）を作成
+2025-09-12 21:17:03,826 - INFO - テーマ動画合成完了
+2025-09-12 21:17:45,465 - INFO - 動画出力完了: C:\Users\pukur\nanj-baseball\videos\theme-test\theme1_combined_video.mp4
+2025-09-12 21:17:45,465 - INFO - テーマ動画合成完了: C:\Users\pukur\nanj-baseball\videos\theme-test\theme1_combined_video.mp4
+2025-09-12 23:25:14,222 - INFO - テーマ動画合成開始: 劇的な逆転勝利
+2025-09-12 23:25:14,222 - INFO - タイトル用無音クリップ追加: 4.76秒
+2025-09-12 23:25:14,394 - INFO - 音声[1]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment1_zundamon-normal_20250912.wav (2.42s → 4.76s)
+2025-09-12 23:25:14,569 - INFO - 音声[2]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment2_zundamon-amaama_20250912.wav (2.09s → 4.76s)
+2025-09-12 23:25:14,749 - INFO - 音声[3]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment3_zundamon-tsuntsun_20250912.wav (1.66s → 4.76s)
+2025-09-12 23:25:14,924 - INFO - 音声[4]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment4_zundamon-sexy_20250912.wav (2.46s → 4.76s)
+2025-09-12 23:25:15,102 - INFO - 音声[5]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment5_metan-normal_20250912.wav (1.91s → 4.76s)
+2025-09-12 23:25:15,278 - INFO - 音声[6]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment6_metan-amaama_20250912.wav (2.43s → 4.76s)
+2025-09-12 23:25:15,457 - INFO - 音声[7]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment7_zundamon-normal_20250912.wav (1.75s → 4.76s)
+2025-09-12 23:25:15,629 - INFO - 音声[8]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment8_zundamon-amaama_20250912.wav (2.45s → 4.76s)
+2025-09-12 23:25:15,801 - INFO - 音声[9]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment9_zundamon-tsuntsun_20250912.wav (1.81s → 4.76s)
+2025-09-12 23:25:15,975 - INFO - 音声[10]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment10_zundamon-sexy_20250912.wav (2.42s → 4.76s)
+2025-09-12 23:25:16,158 - INFO - 音声[11]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment11_metan-normal_20250912.wav (2.19s → 4.76s)
+2025-09-12 23:25:16,340 - INFO - 音声[12]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment12_metan-amaama_20250912.wav (2.65s → 4.76s)
+2025-09-12 23:25:16,518 - INFO - 音声[13]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment13_zundamon-normal_20250912.wav (2.56s → 4.76s)
+2025-09-12 23:25:16,692 - INFO - 音声[14]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment14_zundamon-amaama_20250912.wav (2.26s → 4.76s)
+2025-09-12 23:25:16,869 - INFO - 音声[15]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment15_zundamon-tsuntsun_20250912.wav (1.85s → 4.76s)
+2025-09-12 23:25:17,042 - INFO - 音声[16]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment16_zundamon-sexy_20250912.wav (2.39s → 4.76s)
+2025-09-12 23:25:17,218 - INFO - 音声[17]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment17_metan-normal_20250912.wav (2.44s → 4.76s)
+2025-09-12 23:25:17,404 - INFO - 音声[18]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment18_metan-amaama_20250912.wav (3.33s → 4.76s)
+2025-09-12 23:25:17,578 - INFO - 音声[19]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment19_zundamon-normal_20250912.wav (2.11s → 4.76s)
+2025-09-12 23:25:17,759 - INFO - 音声[20]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment20_zundamon-amaama_20250912.wav (3.09s → 4.76s)
+2025-09-12 23:25:17,760 - INFO - 音声結合完了: 総時間 100.00秒 (目標: 100.0秒)
+2025-09-12 23:25:17,776 - INFO - デフォルト背景（緑色）を作成
+2025-09-12 23:25:17,776 - INFO - タイトル吹き出し準備: '劇的な逆転勝利' (0.0s-4.8s)
+2025-09-12 23:25:17,778 - WARNING - タイトル字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 23:25:17,778 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 23:25:17,779 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 23:25:17,780 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 23:25:17,780 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 23:25:17,781 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 23:25:17,782 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 23:25:17,790 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 23:25:17,790 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 23:25:17,791 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 23:25:17,792 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 23:25:17,793 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 23:25:17,793 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 23:25:17,794 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 23:25:17,795 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 23:25:17,796 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 23:25:17,796 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 23:25:17,797 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 23:25:17,798 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 23:25:17,799 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 23:25:17,799 - WARNING - テキスト字幕作成失敗: MoviePy Error: creation of None failed because of the following error:
+
+[WinError 2] 指定されたファイルが見つかりません。.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect
+2025-09-12 23:25:17,799 - INFO - 全吹き出し準備完了: 0個 (タイトル1個 + コメント-1個)
+2025-09-12 23:25:17,838 - INFO - テーマ動画合成完了
+2025-09-12 23:25:17,948 - ERROR - テーマ動画合成エラー: 動画出力エラー: 'NoneType' object has no attribute 'get_frame'
+2025-09-12 23:25:17,954 - ERROR - Traceback (most recent call last):
+  File "C:\Users\pukur\nanj-baseball\python\video_composer.py", line 405, in _export_video
+    video.write_videofile(
+    ~~~~~~~~~~~~~~~~~~~~~^
+        output_path,
+        ^^^^^^^^^^^^
+    ...<7 lines>...
+        logger=None
+        ^^^^^^^^^^^
+    )
+    ^
+  File "<decorator-gen-55>", line 2, in write_videofile
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 54, in requires_duration
+    return f(clip, *a, **k)
+  File "<decorator-gen-54>", line 2, in write_videofile
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 135, in use_clip_fps_by_default
+    return f(clip, *new_a, **new_kw)
+  File "<decorator-gen-53>", line 2, in write_videofile
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 22, in convert_masks_to_RGB
+    return f(clip, *a, **k)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\video\VideoClip.py", line 293, in write_videofile
+    self.audio.write_audiofile(audiofile, audio_fps,
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+                               audio_nbytes, audio_bufsize,
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+                               verbose=verbose,
+                               ^^^^^^^^^^^^^^^^
+                               logger=logger)
+                               ^^^^^^^^^^^^^^
+  File "<decorator-gen-45>", line 2, in write_audiofile
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 54, in requires_duration
+    return f(clip, *a, **k)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\AudioClip.py", line 206, in write_audiofile
+    return ffmpeg_audiowrite(self, filename, fps, nbytes, buffersize,
+                             codec=codec, bitrate=bitrate,
+                             write_logfile=write_logfile, verbose=verbose,
+                             ffmpeg_params=ffmpeg_params,
+                             logger=logger)
+  File "<decorator-gen-9>", line 2, in ffmpeg_audiowrite
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 54, in requires_duration
+    return f(clip, *a, **k)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\io\ffmpeg_audiowriter.py", line 166, in ffmpeg_audiowrite
+    for chunk in clip.iter_chunks(chunksize=buffersize,
+                 ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+                                  quantize=True,
+                                  ^^^^^^^^^^^^^^
+                                  nbytes=nbytes, fps=fps,
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+                                  logger=logger):
+                                  ^^^^^^^^^^^^^^
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\AudioClip.py", line 85, in iter_chunks
+    yield self.to_soundarray(tt, nbytes=nbytes, quantize=quantize,
+          ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                fps=fps, buffersize=chunksize)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<decorator-gen-44>", line 2, in to_soundarray
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 54, in requires_duration
+    return f(clip, *a, **k)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\AudioClip.py", line 127, in to_soundarray
+    snd_array = self.get_frame(tt)
+  File "<decorator-gen-11>", line 2, in get_frame
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 89, in wrapper
+    return f(*new_a, **new_kw)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\Clip.py", line 93, in get_frame
+    return self.make_frame(t)
+           ~~~~~~~~~~~~~~~^^^
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\AudioClip.py", line 296, in make_frame
+    sounds = [c.get_frame(t - c.start)*np.array([part]).T
+              ~~~~~~~~~~~^^^^^^^^^^^^^
+  File "<decorator-gen-11>", line 2, in get_frame
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 89, in wrapper
+    return f(*new_a, **new_kw)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\Clip.py", line 93, in get_frame
+    return self.make_frame(t)
+           ~~~~~~~~~~~~~~~^^^
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\AudioClip.py", line 296, in make_frame
+    sounds = [c.get_frame(t - c.start)*np.array([part]).T
+              ~~~~~~~~~~~^^^^^^^^^^^^^
+  File "<decorator-gen-11>", line 2, in get_frame
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 89, in wrapper
+    return f(*new_a, **new_kw)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\Clip.py", line 93, in get_frame
+    return self.make_frame(t)
+           ~~~~~~~~~~~~~~~^^^
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\io\AudioFileClip.py", line 77, in <lambda>
+    self.make_frame = lambda t: self.reader.get_frame(t)
+                                ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get_frame'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pukur\nanj-baseball\python\video_composer.py", line 184, in compose_theme_video
+    output_path = self._export_video(final_video, theme_config["output_path"], theme_config.get("settings", {}))
+  File "C:\Users\pukur\nanj-baseball\python\video_composer.py", line 421, in _export_video
+    raise Exception(f"動画出力エラー: {str(e)}")
+Exception: 動画出力エラー: 'NoneType' object has no attribute 'get_frame'
+
+2025-09-12 23:25:42,681 - INFO - テーマ動画合成開始: 劇的な逆転勝利
+2025-09-12 23:25:42,681 - INFO - タイトル用無音クリップ追加: 4.76秒
+2025-09-12 23:25:42,861 - INFO - 音声[1]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment1_zundamon-normal_20250912.wav (2.42s → 4.76s)
+2025-09-12 23:25:43,034 - INFO - 音声[2]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment2_zundamon-amaama_20250912.wav (2.09s → 4.76s)
+2025-09-12 23:25:43,207 - INFO - 音声[3]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment3_zundamon-tsuntsun_20250912.wav (1.66s → 4.76s)
+2025-09-12 23:25:43,382 - INFO - 音声[4]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment4_zundamon-sexy_20250912.wav (2.46s → 4.76s)
+2025-09-12 23:25:43,557 - INFO - 音声[5]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment5_metan-normal_20250912.wav (1.91s → 4.76s)
+2025-09-12 23:25:43,724 - INFO - 音声[6]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment6_metan-amaama_20250912.wav (2.43s → 4.76s)
+2025-09-12 23:25:43,906 - INFO - 音声[7]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment7_zundamon-normal_20250912.wav (1.75s → 4.76s)
+2025-09-12 23:25:44,079 - INFO - 音声[8]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment8_zundamon-amaama_20250912.wav (2.45s → 4.76s)
+2025-09-12 23:25:44,251 - INFO - 音声[9]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment9_zundamon-tsuntsun_20250912.wav (1.81s → 4.76s)
+2025-09-12 23:25:44,432 - INFO - 音声[10]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment10_zundamon-sexy_20250912.wav (2.42s → 4.76s)
+2025-09-12 23:25:44,613 - INFO - 音声[11]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment11_metan-normal_20250912.wav (2.19s → 4.76s)
+2025-09-12 23:25:44,788 - INFO - 音声[12]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment12_metan-amaama_20250912.wav (2.65s → 4.76s)
+2025-09-12 23:25:44,968 - INFO - 音声[13]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment13_zundamon-normal_20250912.wav (2.56s → 4.76s)
+2025-09-12 23:25:45,140 - INFO - 音声[14]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment14_zundamon-amaama_20250912.wav (2.26s → 4.76s)
+2025-09-12 23:25:45,317 - INFO - 音声[15]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment15_zundamon-tsuntsun_20250912.wav (1.85s → 4.76s)
+2025-09-12 23:25:45,488 - INFO - 音声[16]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment16_zundamon-sexy_20250912.wav (2.39s → 4.76s)
+2025-09-12 23:25:45,657 - INFO - 音声[17]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment17_metan-normal_20250912.wav (2.44s → 4.76s)
+2025-09-12 23:25:45,837 - INFO - 音声[18]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment18_metan-amaama_20250912.wav (3.33s → 4.76s)
+2025-09-12 23:25:46,009 - INFO - 音声[19]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment19_zundamon-normal_20250912.wav (2.11s → 4.76s)
+2025-09-12 23:25:46,182 - INFO - 音声[20]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment20_zundamon-amaama_20250912.wav (3.09s → 4.76s)
+2025-09-12 23:25:46,186 - INFO - 音声結合完了: 総時間 100.00秒 (目標: 100.0秒)
+2025-09-12 23:25:46,198 - INFO - デフォルト背景（緑色）を作成
+2025-09-12 23:25:46,228 - INFO - テーマ動画合成完了
+2025-09-12 23:25:46,340 - ERROR - テーマ動画合成エラー: 動画出力エラー: 'NoneType' object has no attribute 'get_frame'
+2025-09-12 23:25:46,344 - ERROR - Traceback (most recent call last):
+  File "C:\Users\pukur\nanj-baseball\python\video_composer.py", line 406, in _export_video
+    video.write_videofile(
+    ~~~~~~~~~~~~~~~~~~~~~^
+        output_path,
+        ^^^^^^^^^^^^
+    ...<7 lines>...
+        logger=None
+        ^^^^^^^^^^^
+    )
+    ^
+  File "<decorator-gen-55>", line 2, in write_videofile
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 54, in requires_duration
+    return f(clip, *a, **k)
+  File "<decorator-gen-54>", line 2, in write_videofile
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 135, in use_clip_fps_by_default
+    return f(clip, *new_a, **new_kw)
+  File "<decorator-gen-53>", line 2, in write_videofile
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 22, in convert_masks_to_RGB
+    return f(clip, *a, **k)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\video\VideoClip.py", line 293, in write_videofile
+    self.audio.write_audiofile(audiofile, audio_fps,
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+                               audio_nbytes, audio_bufsize,
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+                               verbose=verbose,
+                               ^^^^^^^^^^^^^^^^
+                               logger=logger)
+                               ^^^^^^^^^^^^^^
+  File "<decorator-gen-45>", line 2, in write_audiofile
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 54, in requires_duration
+    return f(clip, *a, **k)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\AudioClip.py", line 206, in write_audiofile
+    return ffmpeg_audiowrite(self, filename, fps, nbytes, buffersize,
+                             codec=codec, bitrate=bitrate,
+                             write_logfile=write_logfile, verbose=verbose,
+                             ffmpeg_params=ffmpeg_params,
+                             logger=logger)
+  File "<decorator-gen-9>", line 2, in ffmpeg_audiowrite
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 54, in requires_duration
+    return f(clip, *a, **k)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\io\ffmpeg_audiowriter.py", line 166, in ffmpeg_audiowrite
+    for chunk in clip.iter_chunks(chunksize=buffersize,
+                 ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+                                  quantize=True,
+                                  ^^^^^^^^^^^^^^
+                                  nbytes=nbytes, fps=fps,
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+                                  logger=logger):
+                                  ^^^^^^^^^^^^^^
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\AudioClip.py", line 85, in iter_chunks
+    yield self.to_soundarray(tt, nbytes=nbytes, quantize=quantize,
+          ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                fps=fps, buffersize=chunksize)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<decorator-gen-44>", line 2, in to_soundarray
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 54, in requires_duration
+    return f(clip, *a, **k)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\AudioClip.py", line 127, in to_soundarray
+    snd_array = self.get_frame(tt)
+  File "<decorator-gen-11>", line 2, in get_frame
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 89, in wrapper
+    return f(*new_a, **new_kw)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\Clip.py", line 93, in get_frame
+    return self.make_frame(t)
+           ~~~~~~~~~~~~~~~^^^
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\AudioClip.py", line 296, in make_frame
+    sounds = [c.get_frame(t - c.start)*np.array([part]).T
+              ~~~~~~~~~~~^^^^^^^^^^^^^
+  File "<decorator-gen-11>", line 2, in get_frame
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 89, in wrapper
+    return f(*new_a, **new_kw)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\Clip.py", line 93, in get_frame
+    return self.make_frame(t)
+           ~~~~~~~~~~~~~~~^^^
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\AudioClip.py", line 296, in make_frame
+    sounds = [c.get_frame(t - c.start)*np.array([part]).T
+              ~~~~~~~~~~~^^^^^^^^^^^^^
+  File "<decorator-gen-11>", line 2, in get_frame
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 89, in wrapper
+    return f(*new_a, **new_kw)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\Clip.py", line 93, in get_frame
+    return self.make_frame(t)
+           ~~~~~~~~~~~~~~~^^^
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\io\AudioFileClip.py", line 77, in <lambda>
+    self.make_frame = lambda t: self.reader.get_frame(t)
+                                ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get_frame'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pukur\nanj-baseball\python\video_composer.py", line 185, in compose_theme_video
+    output_path = self._export_video(final_video, theme_config["output_path"], theme_config.get("settings", {}))
+  File "C:\Users\pukur\nanj-baseball\python\video_composer.py", line 422, in _export_video
+    raise Exception(f"動画出力エラー: {str(e)}")
+Exception: 動画出力エラー: 'NoneType' object has no attribute 'get_frame'
+
+2025-09-12 23:26:31,999 - INFO - テーマ動画合成開始: 劇的な逆転勝利
+2025-09-12 23:26:31,999 - INFO - タイトル用無音クリップ追加: 4.76秒
+2025-09-12 23:26:32,176 - INFO - 音声[1]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment1_zundamon-normal_20250912.wav (2.42s → 4.76s)
+2025-09-12 23:26:32,351 - INFO - 音声[2]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment2_zundamon-amaama_20250912.wav (2.09s → 4.76s)
+2025-09-12 23:26:32,523 - INFO - 音声[3]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment3_zundamon-tsuntsun_20250912.wav (1.66s → 4.76s)
+2025-09-12 23:26:32,701 - INFO - 音声[4]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment4_zundamon-sexy_20250912.wav (2.46s → 4.76s)
+2025-09-12 23:26:32,875 - INFO - 音声[5]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment5_metan-normal_20250912.wav (1.91s → 4.76s)
+2025-09-12 23:26:33,045 - INFO - 音声[6]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment6_metan-amaama_20250912.wav (2.43s → 4.76s)
+2025-09-12 23:26:33,223 - INFO - 音声[7]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment7_zundamon-normal_20250912.wav (1.75s → 4.76s)
+2025-09-12 23:26:33,395 - INFO - 音声[8]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment8_zundamon-amaama_20250912.wav (2.45s → 4.76s)
+2025-09-12 23:26:33,568 - INFO - 音声[9]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment9_zundamon-tsuntsun_20250912.wav (1.81s → 4.76s)
+2025-09-12 23:26:33,744 - INFO - 音声[10]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment10_zundamon-sexy_20250912.wav (2.42s → 4.76s)
+2025-09-12 23:26:33,919 - INFO - 音声[11]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment11_metan-normal_20250912.wav (2.19s → 4.76s)
+2025-09-12 23:26:34,095 - INFO - 音声[12]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment12_metan-amaama_20250912.wav (2.65s → 4.76s)
+2025-09-12 23:26:34,273 - INFO - 音声[13]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment13_zundamon-normal_20250912.wav (2.56s → 4.76s)
+2025-09-12 23:26:34,447 - INFO - 音声[14]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment14_zundamon-amaama_20250912.wav (2.26s → 4.76s)
+2025-09-12 23:26:34,625 - INFO - 音声[15]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment15_zundamon-tsuntsun_20250912.wav (1.85s → 4.76s)
+2025-09-12 23:26:34,802 - INFO - 音声[16]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment16_zundamon-sexy_20250912.wav (2.39s → 4.76s)
+2025-09-12 23:26:34,974 - INFO - 音声[17]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment17_metan-normal_20250912.wav (2.44s → 4.76s)
+2025-09-12 23:26:35,157 - INFO - 音声[18]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment18_metan-amaama_20250912.wav (3.33s → 4.76s)
+2025-09-12 23:26:35,335 - INFO - 音声[19]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment19_zundamon-normal_20250912.wav (2.11s → 4.76s)
+2025-09-12 23:26:35,512 - INFO - 音声[20]調整: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment20_zundamon-amaama_20250912.wav (3.09s → 4.76s)
+2025-09-12 23:26:35,515 - INFO - 音声結合完了: 総時間 100.00秒 (目標: 100.0秒)
+2025-09-12 23:26:35,527 - INFO - デフォルト背景（緑色）を作成
+2025-09-12 23:26:35,560 - INFO - テーマ動画合成完了
+2025-09-12 23:26:35,570 - ERROR - テーマ動画合成エラー: 動画出力エラー: operands could not be broadcast together with shapes (2,1) (1999,1) 
+2025-09-12 23:26:35,573 - ERROR - Traceback (most recent call last):
+  File "C:\Users\pukur\nanj-baseball\python\video_composer.py", line 406, in _export_video
+    video.write_videofile(
+    ~~~~~~~~~~~~~~~~~~~~~^
+        output_path,
+        ^^^^^^^^^^^^
+    ...<7 lines>...
+        logger=None
+        ^^^^^^^^^^^
+    )
+    ^
+  File "<decorator-gen-55>", line 2, in write_videofile
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 54, in requires_duration
+    return f(clip, *a, **k)
+  File "<decorator-gen-54>", line 2, in write_videofile
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 135, in use_clip_fps_by_default
+    return f(clip, *new_a, **new_kw)
+  File "<decorator-gen-53>", line 2, in write_videofile
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 22, in convert_masks_to_RGB
+    return f(clip, *a, **k)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\video\VideoClip.py", line 293, in write_videofile
+    self.audio.write_audiofile(audiofile, audio_fps,
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+                               audio_nbytes, audio_bufsize,
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+                               verbose=verbose,
+                               ^^^^^^^^^^^^^^^^
+                               logger=logger)
+                               ^^^^^^^^^^^^^^
+  File "<decorator-gen-45>", line 2, in write_audiofile
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 54, in requires_duration
+    return f(clip, *a, **k)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\AudioClip.py", line 206, in write_audiofile
+    return ffmpeg_audiowrite(self, filename, fps, nbytes, buffersize,
+                             codec=codec, bitrate=bitrate,
+                             write_logfile=write_logfile, verbose=verbose,
+                             ffmpeg_params=ffmpeg_params,
+                             logger=logger)
+  File "<decorator-gen-9>", line 2, in ffmpeg_audiowrite
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 54, in requires_duration
+    return f(clip, *a, **k)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\io\ffmpeg_audiowriter.py", line 166, in ffmpeg_audiowrite
+    for chunk in clip.iter_chunks(chunksize=buffersize,
+                 ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+                                  quantize=True,
+                                  ^^^^^^^^^^^^^^
+                                  nbytes=nbytes, fps=fps,
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+                                  logger=logger):
+                                  ^^^^^^^^^^^^^^
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\AudioClip.py", line 85, in iter_chunks
+    yield self.to_soundarray(tt, nbytes=nbytes, quantize=quantize,
+          ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                fps=fps, buffersize=chunksize)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<decorator-gen-44>", line 2, in to_soundarray
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 54, in requires_duration
+    return f(clip, *a, **k)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\AudioClip.py", line 127, in to_soundarray
+    snd_array = self.get_frame(tt)
+  File "<decorator-gen-11>", line 2, in get_frame
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 89, in wrapper
+    return f(*new_a, **new_kw)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\Clip.py", line 93, in get_frame
+    return self.make_frame(t)
+           ~~~~~~~~~~~~~~~^^^
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\AudioClip.py", line 296, in make_frame
+    sounds = [c.get_frame(t - c.start)*np.array([part]).T
+              ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+ValueError: operands could not be broadcast together with shapes (2,1) (1999,1) 
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pukur\nanj-baseball\python\video_composer.py", line 185, in compose_theme_video
+    output_path = self._export_video(final_video, theme_config["output_path"], theme_config.get("settings", {}))
+  File "C:\Users\pukur\nanj-baseball\python\video_composer.py", line 422, in _export_video
+    raise Exception(f"動画出力エラー: {str(e)}")
+Exception: 動画出力エラー: operands could not be broadcast together with shapes (2,1) (1999,1) 
+
+2025-09-12 23:27:32,708 - INFO - テーマ動画合成開始: 劇的な逆転勝利
+2025-09-12 23:27:32,909 - INFO - 音声[1]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment1_zundamon-normal_20250912.wav (2.42s → 2.42s)
+2025-09-12 23:27:33,085 - INFO - 音声[2]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment2_zundamon-amaama_20250912.wav (2.09s → 2.09s)
+2025-09-12 23:27:33,255 - INFO - 音声[3]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment3_zundamon-tsuntsun_20250912.wav (1.66s → 1.66s)
+2025-09-12 23:27:33,433 - INFO - 音声[4]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment4_zundamon-sexy_20250912.wav (2.46s → 2.46s)
+2025-09-12 23:27:33,636 - INFO - 音声[5]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment5_metan-normal_20250912.wav (1.91s → 1.91s)
+2025-09-12 23:27:33,825 - INFO - 音声[6]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment6_metan-amaama_20250912.wav (2.43s → 2.43s)
+2025-09-12 23:27:34,019 - INFO - 音声[7]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment7_zundamon-normal_20250912.wav (1.75s → 1.75s)
+2025-09-12 23:27:34,205 - INFO - 音声[8]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment8_zundamon-amaama_20250912.wav (2.45s → 2.45s)
+2025-09-12 23:27:34,392 - INFO - 音声[9]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment9_zundamon-tsuntsun_20250912.wav (1.81s → 1.81s)
+2025-09-12 23:27:34,563 - INFO - 音声[10]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment10_zundamon-sexy_20250912.wav (2.42s → 2.42s)
+2025-09-12 23:27:34,737 - INFO - 音声[11]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment11_metan-normal_20250912.wav (2.19s → 2.19s)
+2025-09-12 23:27:34,919 - INFO - 音声[12]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment12_metan-amaama_20250912.wav (2.65s → 2.65s)
+2025-09-12 23:27:35,104 - INFO - 音声[13]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment13_zundamon-normal_20250912.wav (2.56s → 2.56s)
+2025-09-12 23:27:35,277 - INFO - 音声[14]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment14_zundamon-amaama_20250912.wav (2.26s → 2.26s)
+2025-09-12 23:27:35,453 - INFO - 音声[15]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment15_zundamon-tsuntsun_20250912.wav (1.85s → 1.85s)
+2025-09-12 23:27:35,627 - INFO - 音声[16]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment16_zundamon-sexy_20250912.wav (2.39s → 2.39s)
+2025-09-12 23:27:35,804 - INFO - 音声[17]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment17_metan-normal_20250912.wav (2.44s → 2.44s)
+2025-09-12 23:27:35,991 - INFO - 音声[18]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment18_metan-amaama_20250912.wav (3.33s → 3.33s)
+2025-09-12 23:27:36,165 - INFO - 音声[19]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment19_zundamon-normal_20250912.wav (2.11s → 2.11s)
+2025-09-12 23:27:36,340 - INFO - 音声[20]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment20_zundamon-amaama_20250912.wav (3.09s → 3.09s)
+2025-09-12 23:27:36,341 - ERROR - テーマ動画合成エラー: 音声結合エラー: VideoComposer._combine_theme_audios.<locals>.<lambda>() missing 1 required positional argument: 't'
+2025-09-12 23:27:36,343 - ERROR - Traceback (most recent call last):
+  File "C:\Users\pukur\nanj-baseball\python\video_composer.py", line 506, in _combine_theme_audios
+    silence_end = AudioClip(make_frame=lambda gf, t: [0, 0], duration=remaining_duration)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\AudioClip.py", line 55, in __init__
+    frame0 = self.get_frame(0)
+  File "<decorator-gen-11>", line 2, in get_frame
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 89, in wrapper
+    return f(*new_a, **new_kw)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\Clip.py", line 93, in get_frame
+    return self.make_frame(t)
+           ~~~~~~~~~~~~~~~^^^
+TypeError: VideoComposer._combine_theme_audios.<locals>.<lambda>() missing 1 required positional argument: 't'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pukur\nanj-baseball\python\video_composer.py", line 157, in compose_theme_video
+    combined_audio, audio_timings = self._combine_theme_audios(theme_config["audio_files"])
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pukur\nanj-baseball\python\video_composer.py", line 513, in _combine_theme_audios
+    raise Exception(f"音声結合エラー: {str(e)}")
+Exception: 音声結合エラー: VideoComposer._combine_theme_audios.<locals>.<lambda>() missing 1 required positional argument: 't'
+
+2025-09-12 23:27:53,946 - INFO - テーマ動画合成開始: 劇的な逆転勝利
+2025-09-12 23:27:54,131 - INFO - 音声[1]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment1_zundamon-normal_20250912.wav (2.42s → 2.42s)
+2025-09-12 23:27:54,308 - INFO - 音声[2]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment2_zundamon-amaama_20250912.wav (2.09s → 2.09s)
+2025-09-12 23:27:54,479 - INFO - 音声[3]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment3_zundamon-tsuntsun_20250912.wav (1.66s → 1.66s)
+2025-09-12 23:27:54,656 - INFO - 音声[4]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment4_zundamon-sexy_20250912.wav (2.46s → 2.46s)
+2025-09-12 23:27:54,828 - INFO - 音声[5]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment5_metan-normal_20250912.wav (1.91s → 1.91s)
+2025-09-12 23:27:55,005 - INFO - 音声[6]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment6_metan-amaama_20250912.wav (2.43s → 2.43s)
+2025-09-12 23:27:55,190 - INFO - 音声[7]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment7_zundamon-normal_20250912.wav (1.75s → 1.75s)
+2025-09-12 23:27:55,370 - INFO - 音声[8]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment8_zundamon-amaama_20250912.wav (2.45s → 2.45s)
+2025-09-12 23:27:55,537 - INFO - 音声[9]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment9_zundamon-tsuntsun_20250912.wav (1.81s → 1.81s)
+2025-09-12 23:27:55,709 - INFO - 音声[10]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment10_zundamon-sexy_20250912.wav (2.42s → 2.42s)
+2025-09-12 23:27:55,914 - INFO - 音声[11]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment11_metan-normal_20250912.wav (2.19s → 2.19s)
+2025-09-12 23:27:56,092 - INFO - 音声[12]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment12_metan-amaama_20250912.wav (2.65s → 2.65s)
+2025-09-12 23:27:56,265 - INFO - 音声[13]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment13_zundamon-normal_20250912.wav (2.56s → 2.56s)
+2025-09-12 23:27:56,439 - INFO - 音声[14]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment14_zundamon-amaama_20250912.wav (2.26s → 2.26s)
+2025-09-12 23:27:56,610 - INFO - 音声[15]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment15_zundamon-tsuntsun_20250912.wav (1.85s → 1.85s)
+2025-09-12 23:27:56,781 - INFO - 音声[16]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment16_zundamon-sexy_20250912.wav (2.39s → 2.39s)
+2025-09-12 23:27:56,962 - INFO - 音声[17]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment17_metan-normal_20250912.wav (2.44s → 2.44s)
+2025-09-12 23:27:57,150 - INFO - 音声[18]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment18_metan-amaama_20250912.wav (3.33s → 3.33s)
+2025-09-12 23:27:57,335 - INFO - 音声[19]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment19_zundamon-normal_20250912.wav (2.11s → 2.11s)
+2025-09-12 23:27:57,519 - INFO - 音声[20]処理: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment20_zundamon-amaama_20250912.wav (3.09s → 3.09s)
+2025-09-12 23:27:57,520 - INFO - 音声結合完了: 総時間 100.00秒 (目標: 100.0秒)
+2025-09-12 23:27:57,532 - INFO - デフォルト背景（緑色）を作成
+2025-09-12 23:27:57,568 - INFO - テーマ動画合成完了
+2025-09-12 23:29:34,075 - INFO - 動画出力完了: C:\Users\pukur\nanj-baseball\videos\theme-test\theme1_combined_video.mp4
+2025-09-12 23:29:34,075 - INFO - テーマ動画合成完了: C:\Users\pukur\nanj-baseball\videos\theme-test\theme1_combined_video.mp4
+2025-09-12 23:43:16,761 - INFO - テーマ動画合成開始: 劇的な逆転勝利
+2025-09-12 23:43:16,761 - INFO - タイトル用無音セグメント作成: 0.0s-4.76s
+2025-09-12 23:43:16,958 - INFO - 音声[1]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment1_zundamon-normal_20250912.wav (4.76s-9.52s)
+2025-09-12 23:43:17,150 - INFO - 音声[2]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment2_zundamon-amaama_20250912.wav (9.52s-14.29s)
+2025-09-12 23:43:17,344 - INFO - 音声[3]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment3_zundamon-tsuntsun_20250912.wav (14.29s-19.05s)
+2025-09-12 23:43:17,575 - INFO - 音声[4]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment4_zundamon-sexy_20250912.wav (19.05s-23.81s)
+2025-09-12 23:43:17,767 - INFO - 音声[5]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment5_metan-normal_20250912.wav (23.81s-28.57s)
+2025-09-12 23:43:17,968 - INFO - 音声[6]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment6_metan-amaama_20250912.wav (28.57s-33.33s)
+2025-09-12 23:43:18,166 - INFO - 音声[7]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment7_zundamon-normal_20250912.wav (33.33s-38.10s)
+2025-09-12 23:43:18,348 - INFO - 音声[8]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment8_zundamon-amaama_20250912.wav (38.10s-42.86s)
+2025-09-12 23:43:18,554 - INFO - 音声[9]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment9_zundamon-tsuntsun_20250912.wav (42.86s-47.62s)
+2025-09-12 23:43:18,753 - INFO - 音声[10]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment10_zundamon-sexy_20250912.wav (47.62s-52.38s)
+2025-09-12 23:43:18,946 - INFO - 音声[11]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment11_metan-normal_20250912.wav (52.38s-57.14s)
+2025-09-12 23:43:19,148 - INFO - 音声[12]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment12_metan-amaama_20250912.wav (57.14s-61.90s)
+2025-09-12 23:43:19,345 - INFO - 音声[13]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment13_zundamon-normal_20250912.wav (61.90s-66.67s)
+2025-09-12 23:43:19,541 - INFO - 音声[14]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment14_zundamon-amaama_20250912.wav (66.67s-71.43s)
+2025-09-12 23:43:19,766 - INFO - 音声[15]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment15_zundamon-tsuntsun_20250912.wav (71.43s-76.19s)
+2025-09-12 23:43:19,971 - INFO - 音声[16]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment16_zundamon-sexy_20250912.wav (76.19s-80.95s)
+2025-09-12 23:43:20,196 - INFO - 音声[17]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment17_metan-normal_20250912.wav (80.95s-85.71s)
+2025-09-12 23:43:20,415 - INFO - 音声[18]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment18_metan-amaama_20250912.wav (85.71s-90.48s)
+2025-09-12 23:43:20,642 - INFO - 音声[19]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment19_zundamon-normal_20250912.wav (90.48s-95.24s)
+2025-09-12 23:43:20,890 - INFO - 音声[20]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment20_zundamon-amaama_20250912.wav (95.24s-100.00s)
+2025-09-12 23:43:20,894 - INFO - 音声結合完了: 総時間 100.00秒 (目標: 100.0秒)
+2025-09-12 23:43:20,895 - INFO - 21個セグメント配置: タイトル1個 + コメント20個
+2025-09-12 23:43:20,921 - INFO - デフォルト背景（緑色）を作成
+2025-09-12 23:43:20,979 - INFO - テーマ動画合成完了
+2025-09-12 23:43:21,156 - ERROR - テーマ動画合成エラー: 動画出力エラー: 'NoneType' object has no attribute 'get_frame'
+2025-09-12 23:43:21,165 - ERROR - Traceback (most recent call last):
+  File "C:\Users\pukur\nanj-baseball\python\video_composer.py", line 406, in _export_video
+    video.write_videofile(
+    ~~~~~~~~~~~~~~~~~~~~~^
+        output_path,
+        ^^^^^^^^^^^^
+    ...<7 lines>...
+        logger=None
+        ^^^^^^^^^^^
+    )
+    ^
+  File "<decorator-gen-55>", line 2, in write_videofile
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 54, in requires_duration
+    return f(clip, *a, **k)
+  File "<decorator-gen-54>", line 2, in write_videofile
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 135, in use_clip_fps_by_default
+    return f(clip, *new_a, **new_kw)
+  File "<decorator-gen-53>", line 2, in write_videofile
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 22, in convert_masks_to_RGB
+    return f(clip, *a, **k)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\video\VideoClip.py", line 293, in write_videofile
+    self.audio.write_audiofile(audiofile, audio_fps,
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+                               audio_nbytes, audio_bufsize,
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+                               verbose=verbose,
+                               ^^^^^^^^^^^^^^^^
+                               logger=logger)
+                               ^^^^^^^^^^^^^^
+  File "<decorator-gen-45>", line 2, in write_audiofile
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 54, in requires_duration
+    return f(clip, *a, **k)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\AudioClip.py", line 206, in write_audiofile
+    return ffmpeg_audiowrite(self, filename, fps, nbytes, buffersize,
+                             codec=codec, bitrate=bitrate,
+                             write_logfile=write_logfile, verbose=verbose,
+                             ffmpeg_params=ffmpeg_params,
+                             logger=logger)
+  File "<decorator-gen-9>", line 2, in ffmpeg_audiowrite
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 54, in requires_duration
+    return f(clip, *a, **k)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\io\ffmpeg_audiowriter.py", line 166, in ffmpeg_audiowrite
+    for chunk in clip.iter_chunks(chunksize=buffersize,
+                 ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+                                  quantize=True,
+                                  ^^^^^^^^^^^^^^
+                                  nbytes=nbytes, fps=fps,
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+                                  logger=logger):
+                                  ^^^^^^^^^^^^^^
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\AudioClip.py", line 85, in iter_chunks
+    yield self.to_soundarray(tt, nbytes=nbytes, quantize=quantize,
+          ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                fps=fps, buffersize=chunksize)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<decorator-gen-44>", line 2, in to_soundarray
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 54, in requires_duration
+    return f(clip, *a, **k)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\AudioClip.py", line 127, in to_soundarray
+    snd_array = self.get_frame(tt)
+  File "<decorator-gen-11>", line 2, in get_frame
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 89, in wrapper
+    return f(*new_a, **new_kw)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\Clip.py", line 93, in get_frame
+    return self.make_frame(t)
+           ~~~~~~~~~~~~~~~^^^
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\AudioClip.py", line 296, in make_frame
+    sounds = [c.get_frame(t - c.start)*np.array([part]).T
+              ~~~~~~~~~~~^^^^^^^^^^^^^
+  File "<decorator-gen-11>", line 2, in get_frame
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\decorators.py", line 89, in wrapper
+    return f(*new_a, **new_kw)
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\Clip.py", line 93, in get_frame
+    return self.make_frame(t)
+           ~~~~~~~~~~~~~~~^^^
+  File "C:\Users\pukur\AppData\Local\Programs\Python\Python313\Lib\site-packages\moviepy\audio\io\AudioFileClip.py", line 77, in <lambda>
+    self.make_frame = lambda t: self.reader.get_frame(t)
+                                ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get_frame'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pukur\nanj-baseball\python\video_composer.py", line 185, in compose_theme_video
+    output_path = self._export_video(final_video, theme_config["output_path"], theme_config.get("settings", {}))
+  File "C:\Users\pukur\nanj-baseball\python\video_composer.py", line 422, in _export_video
+    raise Exception(f"動画出力エラー: {str(e)}")
+Exception: 動画出力エラー: 'NoneType' object has no attribute 'get_frame'
+
+2025-09-12 23:43:45,191 - INFO - テーマ動画合成開始: 劇的な逆転勝利
+2025-09-12 23:43:45,192 - INFO - タイトル用無音セグメント作成: 0.0s-4.76s
+2025-09-12 23:43:45,376 - INFO - 音声[1]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment1_zundamon-normal_20250912.wav (4.76s-9.52s)
+2025-09-12 23:43:45,551 - INFO - 音声[2]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment2_zundamon-amaama_20250912.wav (9.52s-14.29s)
+2025-09-12 23:43:45,729 - INFO - 音声[3]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment3_zundamon-tsuntsun_20250912.wav (14.29s-19.05s)
+2025-09-12 23:43:45,932 - INFO - 音声[4]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment4_zundamon-sexy_20250912.wav (19.05s-23.81s)
+2025-09-12 23:43:46,133 - INFO - 音声[5]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment5_metan-normal_20250912.wav (23.81s-28.57s)
+2025-09-12 23:43:46,313 - INFO - 音声[6]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment6_metan-amaama_20250912.wav (28.57s-33.33s)
+2025-09-12 23:43:46,501 - INFO - 音声[7]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment7_zundamon-normal_20250912.wav (33.33s-38.10s)
+2025-09-12 23:43:46,688 - INFO - 音声[8]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment8_zundamon-amaama_20250912.wav (38.10s-42.86s)
+2025-09-12 23:43:46,911 - INFO - 音声[9]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment9_zundamon-tsuntsun_20250912.wav (42.86s-47.62s)
+2025-09-12 23:43:47,109 - INFO - 音声[10]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment10_zundamon-sexy_20250912.wav (47.62s-52.38s)
+2025-09-12 23:43:47,295 - INFO - 音声[11]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment11_metan-normal_20250912.wav (52.38s-57.14s)
+2025-09-12 23:43:47,506 - INFO - 音声[12]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment12_metan-amaama_20250912.wav (57.14s-61.90s)
+2025-09-12 23:43:47,689 - INFO - 音声[13]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment13_zundamon-normal_20250912.wav (61.90s-66.67s)
+2025-09-12 23:43:47,866 - INFO - 音声[14]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment14_zundamon-amaama_20250912.wav (66.67s-71.43s)
+2025-09-12 23:43:48,058 - INFO - 音声[15]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment15_zundamon-tsuntsun_20250912.wav (71.43s-76.19s)
+2025-09-12 23:43:48,290 - INFO - 音声[16]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment16_zundamon-sexy_20250912.wav (76.19s-80.95s)
+2025-09-12 23:43:48,480 - INFO - 音声[17]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment17_metan-normal_20250912.wav (80.95s-85.71s)
+2025-09-12 23:43:48,684 - INFO - 音声[18]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment18_metan-amaama_20250912.wav (85.71s-90.48s)
+2025-09-12 23:43:48,882 - INFO - 音声[19]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment19_zundamon-normal_20250912.wav (90.48s-95.24s)
+2025-09-12 23:43:49,094 - INFO - 音声[20]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment20_zundamon-amaama_20250912.wav (95.24s-100.00s)
+2025-09-12 23:43:49,095 - INFO - 音声結合完了: 総時間 100.00秒 (目標: 100.0秒)
+2025-09-12 23:43:49,095 - INFO - 21個セグメント配置: タイトル1個 + コメント20個
+2025-09-12 23:43:49,114 - INFO - デフォルト背景（緑色）を作成
+2025-09-12 23:43:49,170 - INFO - テーマ動画合成完了
+2025-09-12 23:45:37,019 - INFO - 動画出力完了: C:\Users\pukur\nanj-baseball\videos\theme-test\theme1_combined_video.mp4
+2025-09-12 23:45:37,019 - INFO - テーマ動画合成完了: C:\Users\pukur\nanj-baseball\videos\theme-test\theme1_combined_video.mp4
+2025-09-12 23:57:47,907 - INFO - テーマ動画合成開始: 【衝撃】9回2死からの劇的逆転勝利ファッ！？
+2025-09-12 23:57:48,080 - INFO - タイトル音声配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\title_gekiteki.wav (0.0s-4.76s)
+2025-09-12 23:57:48,257 - INFO - 音声[1]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment1_zundamon-normal_20250912.wav (4.76s-9.52s)
+2025-09-12 23:57:48,443 - INFO - 音声[2]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment2_zundamon-amaama_20250912.wav (9.52s-14.29s)
+2025-09-12 23:57:48,622 - INFO - 音声[3]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment3_zundamon-tsuntsun_20250912.wav (14.29s-19.05s)
+2025-09-12 23:57:48,800 - INFO - 音声[4]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment4_zundamon-sexy_20250912.wav (19.05s-23.81s)
+2025-09-12 23:57:48,999 - INFO - 音声[5]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment5_metan-normal_20250912.wav (23.81s-28.57s)
+2025-09-12 23:57:49,184 - INFO - 音声[6]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment6_metan-amaama_20250912.wav (28.57s-33.33s)
+2025-09-12 23:57:49,386 - INFO - 音声[7]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment7_zundamon-normal_20250912.wav (33.33s-38.10s)
+2025-09-12 23:57:49,579 - INFO - 音声[8]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment8_zundamon-amaama_20250912.wav (38.10s-42.86s)
+2025-09-12 23:57:49,808 - INFO - 音声[9]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment9_zundamon-tsuntsun_20250912.wav (42.86s-47.62s)
+2025-09-12 23:57:50,058 - INFO - 音声[10]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment10_zundamon-sexy_20250912.wav (47.62s-52.38s)
+2025-09-12 23:57:50,313 - INFO - 音声[11]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment11_metan-normal_20250912.wav (52.38s-57.14s)
+2025-09-12 23:57:50,549 - INFO - 音声[12]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment12_metan-amaama_20250912.wav (57.14s-61.90s)
+2025-09-12 23:57:50,765 - INFO - 音声[13]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment13_zundamon-normal_20250912.wav (61.90s-66.67s)
+2025-09-12 23:57:50,942 - INFO - 音声[14]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment14_zundamon-amaama_20250912.wav (66.67s-71.43s)
+2025-09-12 23:57:51,138 - INFO - 音声[15]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment15_zundamon-tsuntsun_20250912.wav (71.43s-76.19s)
+2025-09-12 23:57:51,321 - INFO - 音声[16]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment16_zundamon-sexy_20250912.wav (76.19s-80.95s)
+2025-09-12 23:57:51,491 - INFO - 音声[17]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment17_metan-normal_20250912.wav (80.95s-85.71s)
+2025-09-12 23:57:51,665 - INFO - 音声[18]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment18_metan-amaama_20250912.wav (85.71s-90.48s)
+2025-09-12 23:57:51,836 - INFO - 音声[19]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment19_zundamon-normal_20250912.wav (90.48s-95.24s)
+2025-09-12 23:57:52,007 - INFO - 音声[20]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment20_zundamon-amaama_20250912.wav (95.24s-100.00s)
+2025-09-12 23:57:52,007 - INFO - 音声結合完了: 総時間 100.00秒 (目標: 100.0秒)
+2025-09-12 23:57:52,007 - INFO - 21個セグメント配置: タイトル1個 + コメント20個
+2025-09-12 23:57:52,019 - INFO - デフォルト背景（緑色）を作成
+2025-09-12 23:57:52,049 - INFO - テーマ動画合成完了
+2025-09-12 23:59:17,979 - INFO - 動画出力完了: C:\Users\pukur\nanj-baseball\videos\theme-test\theme1_combined_video.mp4
+2025-09-12 23:59:17,979 - INFO - テーマ動画合成完了: C:\Users\pukur\nanj-baseball\videos\theme-test\theme1_combined_video.mp4
+2025-09-13 00:06:13,874 - INFO - テーマ動画合成開始: 【衝撃】9回2死からの劇的逆転勝利ファッ！？
+2025-09-13 00:06:14,052 - INFO - タイトル音声配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\title_gekiteki.wav (0.0s-4.76s)
+2025-09-13 00:06:14,228 - INFO - 音声[1]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment1_zundamon-normal_20250912.wav (4.76s-9.52s)
+2025-09-13 00:06:14,400 - INFO - 音声[2]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment2_zundamon-amaama_20250912.wav (9.52s-14.29s)
+2025-09-13 00:06:14,566 - INFO - 音声[3]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment3_zundamon-tsuntsun_20250912.wav (14.29s-19.05s)
+2025-09-13 00:06:14,738 - INFO - 音声[4]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment4_zundamon-sexy_20250912.wav (19.05s-23.81s)
+2025-09-13 00:06:14,909 - INFO - 音声[5]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment5_metan-normal_20250912.wav (23.81s-28.57s)
+2025-09-13 00:06:15,082 - INFO - 音声[6]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment6_metan-amaama_20250912.wav (28.57s-33.33s)
+2025-09-13 00:06:15,268 - INFO - 音声[7]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment7_zundamon-normal_20250912.wav (33.33s-38.10s)
+2025-09-13 00:06:15,479 - INFO - 音声[8]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment8_zundamon-amaama_20250912.wav (38.10s-42.86s)
+2025-09-13 00:06:15,739 - INFO - 音声[9]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment9_zundamon-tsuntsun_20250912.wav (42.86s-47.62s)
+2025-09-13 00:06:15,960 - INFO - 音声[10]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment10_zundamon-sexy_20250912.wav (47.62s-52.38s)
+2025-09-13 00:06:16,163 - INFO - 音声[11]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment11_metan-normal_20250912.wav (52.38s-57.14s)
+2025-09-13 00:06:16,352 - INFO - 音声[12]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment12_metan-amaama_20250912.wav (57.14s-61.90s)
+2025-09-13 00:06:16,531 - INFO - 音声[13]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment13_zundamon-normal_20250912.wav (61.90s-66.67s)
+2025-09-13 00:06:16,720 - INFO - 音声[14]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment14_zundamon-amaama_20250912.wav (66.67s-71.43s)
+2025-09-13 00:06:16,895 - INFO - 音声[15]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment15_zundamon-tsuntsun_20250912.wav (71.43s-76.19s)
+2025-09-13 00:06:17,073 - INFO - 音声[16]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment16_zundamon-sexy_20250912.wav (76.19s-80.95s)
+2025-09-13 00:06:17,250 - INFO - 音声[17]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment17_metan-normal_20250912.wav (80.95s-85.71s)
+2025-09-13 00:06:17,438 - INFO - 音声[18]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment18_metan-amaama_20250912.wav (85.71s-90.48s)
+2025-09-13 00:06:17,615 - INFO - 音声[19]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment19_zundamon-normal_20250912.wav (90.48s-95.24s)
+2025-09-13 00:06:17,793 - INFO - 音声[20]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment20_zundamon-amaama_20250912.wav (95.24s-100.00s)
+2025-09-13 00:06:17,793 - INFO - 音声結合完了: 総時間 100.00秒 (目標: 100.0秒)
+2025-09-13 00:06:17,794 - INFO - 21個セグメント配置: タイトル1個 + コメント20個
+2025-09-13 00:06:17,807 - INFO - デフォルト背景（緑色）を作成
+2025-09-13 00:06:17,845 - INFO - テーマ動画合成完了
+2025-09-13 00:08:01,227 - INFO - 動画出力完了: C:\Users\pukur\nanj-baseball\videos\theme-test\theme1_combined_video.mp4
+2025-09-13 00:08:01,227 - INFO - テーマ動画合成完了: C:\Users\pukur\nanj-baseball\videos\theme-test\theme1_combined_video.mp4
+2025-09-13 00:13:59,943 - INFO - テーマ動画合成開始: 【衝撃】9回2死からの劇的逆転勝利ファッ！？
+2025-09-13 00:14:00,128 - INFO - タイトル音声配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\title_gekiteki.wav (0.0s-4.76s)
+2025-09-13 00:14:00,307 - INFO - 音声[1]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment1_zundamon-normal_20250912.wav (4.76s-9.52s)
+2025-09-13 00:14:00,486 - INFO - 音声[2]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment2_zundamon-amaama_20250912.wav (9.52s-14.29s)
+2025-09-13 00:14:00,664 - INFO - 音声[3]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment3_zundamon-tsuntsun_20250912.wav (14.29s-19.05s)
+2025-09-13 00:14:00,846 - INFO - 音声[4]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment4_zundamon-sexy_20250912.wav (19.05s-23.81s)
+2025-09-13 00:14:01,030 - INFO - 音声[5]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment5_metan-normal_20250912.wav (23.81s-28.57s)
+2025-09-13 00:14:01,212 - INFO - 音声[6]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment6_metan-amaama_20250912.wav (28.57s-33.33s)
+2025-09-13 00:14:01,401 - INFO - 音声[7]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment7_zundamon-normal_20250912.wav (33.33s-38.10s)
+2025-09-13 00:14:01,585 - INFO - 音声[8]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment8_zundamon-amaama_20250912.wav (38.10s-42.86s)
+2025-09-13 00:14:01,770 - INFO - 音声[9]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment9_zundamon-tsuntsun_20250912.wav (42.86s-47.62s)
+2025-09-13 00:14:01,957 - INFO - 音声[10]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment10_zundamon-sexy_20250912.wav (47.62s-52.38s)
+2025-09-13 00:14:02,141 - INFO - 音声[11]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment11_metan-normal_20250912.wav (52.38s-57.14s)
+2025-09-13 00:14:02,326 - INFO - 音声[12]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment12_metan-amaama_20250912.wav (57.14s-61.90s)
+2025-09-13 00:14:02,511 - INFO - 音声[13]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment13_zundamon-normal_20250912.wav (61.90s-66.67s)
+2025-09-13 00:14:02,694 - INFO - 音声[14]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment14_zundamon-amaama_20250912.wav (66.67s-71.43s)
+2025-09-13 00:14:02,881 - INFO - 音声[15]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment15_zundamon-tsuntsun_20250912.wav (71.43s-76.19s)
+2025-09-13 00:14:03,062 - INFO - 音声[16]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment16_zundamon-sexy_20250912.wav (76.19s-80.95s)
+2025-09-13 00:14:03,245 - INFO - 音声[17]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment17_metan-normal_20250912.wav (80.95s-85.71s)
+2025-09-13 00:14:03,432 - INFO - 音声[18]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment18_metan-amaama_20250912.wav (85.71s-90.48s)
+2025-09-13 00:14:03,613 - INFO - 音声[19]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment19_zundamon-normal_20250912.wav (90.48s-95.24s)
+2025-09-13 00:14:03,791 - INFO - 音声[20]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment20_zundamon-amaama_20250912.wav (95.24s-100.00s)
+2025-09-13 00:14:03,791 - INFO - 音声結合完了: 総時間 100.00秒 (目標: 100.0秒)
+2025-09-13 00:14:03,791 - INFO - 21個セグメント配置: タイトル1個 + コメント20個
+2025-09-13 00:14:03,804 - INFO - デフォルト背景（緑色）を作成
+2025-09-13 00:14:03,835 - INFO - テーマ動画合成完了
+2025-09-13 00:15:32,898 - INFO - 動画出力完了: C:\Users\pukur\nanj-baseball\videos\nanj-2025-09-12-with-title\theme1_with_title.mp4
+2025-09-13 00:15:32,899 - INFO - テーマ動画合成完了: C:\Users\pukur\nanj-baseball\videos\nanj-2025-09-12-with-title\theme1_with_title.mp4
+2025-09-13 00:15:33,403 - INFO - テーマ動画合成開始: 【悲報】守護神がまさかのセーブ失敗やらかしたwwwwww
+2025-09-13 00:15:33,595 - INFO - タイトル音声配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\title_shushin_fail.wav (0.0s-4.76s)
+2025-09-13 00:15:33,791 - INFO - 音声[1]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment1_zundamon-tsuntsun_20250912.wav (4.76s-9.52s)
+2025-09-13 00:15:33,978 - INFO - 音声[2]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment2_zundamon-sexy_20250912.wav (9.52s-14.29s)
+2025-09-13 00:15:34,172 - INFO - 音声[3]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment3_metan-normal_20250912.wav (14.29s-19.05s)
+2025-09-13 00:15:34,367 - INFO - 音声[4]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment4_metan-amaama_20250912.wav (19.05s-23.81s)
+2025-09-13 00:15:34,556 - INFO - 音声[5]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment5_zundamon-normal_20250912.wav (23.81s-28.57s)
+2025-09-13 00:15:34,754 - INFO - 音声[6]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment6_zundamon-amaama_20250912.wav (28.57s-33.33s)
+2025-09-13 00:15:34,942 - INFO - 音声[7]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment7_zundamon-tsuntsun_20250912.wav (33.33s-38.10s)
+2025-09-13 00:15:35,125 - INFO - 音声[8]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment8_zundamon-sexy_20250912.wav (38.10s-42.86s)
+2025-09-13 00:15:35,301 - INFO - 音声[9]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment9_metan-normal_20250912.wav (42.86s-47.62s)
+2025-09-13 00:15:35,483 - INFO - 音声[10]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment10_metan-amaama_20250912.wav (47.62s-52.38s)
+2025-09-13 00:15:35,662 - INFO - 音声[11]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment11_zundamon-normal_20250912.wav (52.38s-57.14s)
+2025-09-13 00:15:35,839 - INFO - 音声[12]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment12_zundamon-amaama_20250912.wav (57.14s-61.90s)
+2025-09-13 00:15:36,019 - INFO - 音声[13]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment13_zundamon-tsuntsun_20250912.wav (61.90s-66.67s)
+2025-09-13 00:15:36,196 - INFO - 音声[14]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment14_zundamon-sexy_20250912.wav (66.67s-71.43s)
+2025-09-13 00:15:36,381 - INFO - 音声[15]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment15_metan-normal_20250912.wav (71.43s-76.19s)
+2025-09-13 00:15:36,594 - INFO - 音声[16]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment16_metan-amaama_20250912.wav (76.19s-80.95s)
+2025-09-13 00:15:36,794 - INFO - 音声[17]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment17_zundamon-normal_20250912.wav (80.95s-85.71s)
+2025-09-13 00:15:37,002 - INFO - 音声[18]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment18_zundamon-amaama_20250912.wav (85.71s-90.48s)
+2025-09-13 00:15:37,189 - INFO - 音声[19]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment19_zundamon-tsuntsun_20250912.wav (90.48s-95.24s)
+2025-09-13 00:15:37,386 - INFO - 音声[20]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment20_zundamon-sexy_20250912.wav (95.24s-100.00s)
+2025-09-13 00:15:37,386 - INFO - 音声結合完了: 総時間 100.00秒 (目標: 100.0秒)
+2025-09-13 00:15:37,386 - INFO - 21個セグメント配置: タイトル1個 + コメント20個
+2025-09-13 00:15:37,401 - INFO - デフォルト背景（緑色）を作成
+2025-09-13 00:15:37,431 - INFO - テーマ動画合成完了
+2025-09-13 00:17:03,650 - INFO - 動画出力完了: C:\Users\pukur\nanj-baseball\videos\nanj-2025-09-12-with-title\theme2_with_title.mp4
+2025-09-13 00:17:03,651 - INFO - テーマ動画合成完了: C:\Users\pukur\nanj-baseball\videos\nanj-2025-09-12-with-title\theme2_with_title.mp4
+2025-09-13 00:17:04,142 - INFO - テーマ動画合成開始: 【朗報】新人選手の活躍キターーー！！これは神采配や
+2025-09-13 00:17:04,320 - INFO - タイトル音声配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\title_shinjin_katsuyaku.wav (0.0s-4.76s)
+2025-09-13 00:17:04,502 - INFO - 音声[1]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment1_metan-normal_20250912.wav (4.76s-9.52s)
+2025-09-13 00:17:04,687 - INFO - 音声[2]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment2_metan-amaama_20250912.wav (9.52s-14.29s)
+2025-09-13 00:17:04,872 - INFO - 音声[3]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment3_zundamon-normal_20250912.wav (14.29s-19.05s)
+2025-09-13 00:17:05,054 - INFO - 音声[4]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment4_zundamon-amaama_20250912.wav (19.05s-23.81s)
+2025-09-13 00:17:05,236 - INFO - 音声[5]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment5_zundamon-tsuntsun_20250912.wav (23.81s-28.57s)
+2025-09-13 00:17:05,417 - INFO - 音声[6]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment6_zundamon-sexy_20250912.wav (28.57s-33.33s)
+2025-09-13 00:17:05,599 - INFO - 音声[7]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment7_metan-normal_20250912.wav (33.33s-38.10s)
+2025-09-13 00:17:05,781 - INFO - 音声[8]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment8_metan-amaama_20250912.wav (38.10s-42.86s)
+2025-09-13 00:17:05,962 - INFO - 音声[9]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment9_zundamon-normal_20250912.wav (42.86s-47.62s)
+2025-09-13 00:17:06,150 - INFO - 音声[10]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment10_zundamon-amaama_20250912.wav (47.62s-52.38s)
+2025-09-13 00:17:06,340 - INFO - 音声[11]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment11_zundamon-tsuntsun_20250912.wav (52.38s-57.14s)
+2025-09-13 00:17:06,525 - INFO - 音声[12]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment12_zundamon-sexy_20250912.wav (57.14s-61.90s)
+2025-09-13 00:17:06,713 - INFO - 音声[13]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment13_metan-normal_20250912.wav (61.90s-66.67s)
+2025-09-13 00:17:06,899 - INFO - 音声[14]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment14_metan-amaama_20250912.wav (66.67s-71.43s)
+2025-09-13 00:17:07,080 - INFO - 音声[15]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment15_zundamon-normal_20250912.wav (71.43s-76.19s)
+2025-09-13 00:17:07,263 - INFO - 音声[16]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment16_zundamon-amaama_20250912.wav (76.19s-80.95s)
+2025-09-13 00:17:07,450 - INFO - 音声[17]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment17_zundamon-tsuntsun_20250912.wav (80.95s-85.71s)
+2025-09-13 00:17:07,640 - INFO - 音声[18]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment18_zundamon-sexy_20250912.wav (85.71s-90.48s)
+2025-09-13 00:17:07,817 - INFO - 音声[19]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment19_metan-normal_20250912.wav (90.48s-95.24s)
+2025-09-13 00:17:08,000 - INFO - 音声[20]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment20_metan-amaama_20250912.wav (95.24s-100.00s)
+2025-09-13 00:17:08,000 - INFO - 音声結合完了: 総時間 100.00秒 (目標: 100.0秒)
+2025-09-13 00:17:08,001 - INFO - 21個セグメント配置: タイトル1個 + コメント20個
+2025-09-13 00:17:08,013 - INFO - デフォルト背景（緑色）を作成
+2025-09-13 00:17:08,043 - INFO - テーマ動画合成完了
+2025-09-13 00:18:35,631 - INFO - 動画出力完了: C:\Users\pukur\nanj-baseball\videos\nanj-2025-09-12-with-title\theme3_with_title.mp4
+2025-09-13 00:18:35,632 - INFO - テーマ動画合成完了: C:\Users\pukur\nanj-baseball\videos\nanj-2025-09-12-with-title\theme3_with_title.mp4
+2025-09-13 00:18:36,868 - INFO - テーマ動画合成開始: 【衝撃】9回2死からの劇的逆転勝利ファッ！？
+2025-09-13 00:18:37,074 - INFO - タイトル音声配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\title_gekiteki.wav (0.0s-4.76s)
+2025-09-13 00:18:37,251 - INFO - 音声[1]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment1_zundamon-normal_20250912.wav (4.76s-9.52s)
+2025-09-13 00:18:37,423 - INFO - 音声[2]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment2_zundamon-amaama_20250912.wav (9.52s-14.29s)
+2025-09-13 00:18:37,596 - INFO - 音声[3]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment3_zundamon-tsuntsun_20250912.wav (14.29s-19.05s)
+2025-09-13 00:18:37,771 - INFO - 音声[4]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment4_zundamon-sexy_20250912.wav (19.05s-23.81s)
+2025-09-13 00:18:37,948 - INFO - 音声[5]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment5_metan-normal_20250912.wav (23.81s-28.57s)
+2025-09-13 00:18:38,123 - INFO - 音声[6]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment6_metan-amaama_20250912.wav (28.57s-33.33s)
+2025-09-13 00:18:38,300 - INFO - 音声[7]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment7_zundamon-normal_20250912.wav (33.33s-38.10s)
+2025-09-13 00:18:38,477 - INFO - 音声[8]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment8_zundamon-amaama_20250912.wav (38.10s-42.86s)
+2025-09-13 00:18:38,648 - INFO - 音声[9]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment9_zundamon-tsuntsun_20250912.wav (42.86s-47.62s)
+2025-09-13 00:18:38,823 - INFO - 音声[10]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment10_zundamon-sexy_20250912.wav (47.62s-52.38s)
+2025-09-13 00:18:39,000 - INFO - 音声[11]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment11_metan-normal_20250912.wav (52.38s-57.14s)
+2025-09-13 00:18:39,178 - INFO - 音声[12]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment12_metan-amaama_20250912.wav (57.14s-61.90s)
+2025-09-13 00:18:39,355 - INFO - 音声[13]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment13_zundamon-normal_20250912.wav (61.90s-66.67s)
+2025-09-13 00:18:39,527 - INFO - 音声[14]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment14_zundamon-amaama_20250912.wav (66.67s-71.43s)
+2025-09-13 00:18:39,701 - INFO - 音声[15]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment15_zundamon-tsuntsun_20250912.wav (71.43s-76.19s)
+2025-09-13 00:18:39,923 - INFO - 音声[16]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment16_zundamon-sexy_20250912.wav (76.19s-80.95s)
+2025-09-13 00:18:40,099 - INFO - 音声[17]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment17_metan-normal_20250912.wav (80.95s-85.71s)
+2025-09-13 00:18:40,276 - INFO - 音声[18]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment18_metan-amaama_20250912.wav (85.71s-90.48s)
+2025-09-13 00:18:40,449 - INFO - 音声[19]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment19_zundamon-normal_20250912.wav (90.48s-95.24s)
+2025-09-13 00:18:40,640 - INFO - 音声[20]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme1_comment20_zundamon-amaama_20250912.wav (95.24s-100.00s)
+2025-09-13 00:18:40,640 - INFO - 音声結合完了: 総時間 100.00秒 (目標: 100.0秒)
+2025-09-13 00:18:40,640 - INFO - 21個セグメント配置: タイトル1個 + コメント20個
+2025-09-13 00:18:40,652 - INFO - デフォルト背景（緑色）を作成
+2025-09-13 00:18:40,680 - INFO - テーマ動画合成完了
+2025-09-13 00:20:08,671 - INFO - 動画出力完了: C:\Users\pukur\nanj-baseball\videos\nanj-2025-09-12-with-title\theme1_with_title.mp4
+2025-09-13 00:20:08,672 - INFO - テーマ動画合成完了: C:\Users\pukur\nanj-baseball\videos\nanj-2025-09-12-with-title\theme1_with_title.mp4
+2025-09-13 00:20:09,155 - INFO - テーマ動画合成開始: 【悲報】守護神がまさかのセーブ失敗やらかしたwwwwww
+2025-09-13 00:20:09,327 - INFO - タイトル音声配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\title_shushin_fail.wav (0.0s-4.76s)
+2025-09-13 00:20:09,503 - INFO - 音声[1]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment1_zundamon-tsuntsun_20250912.wav (4.76s-9.52s)
+2025-09-13 00:20:09,679 - INFO - 音声[2]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment2_zundamon-sexy_20250912.wav (9.52s-14.29s)
+2025-09-13 00:20:09,865 - INFO - 音声[3]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment3_metan-normal_20250912.wav (14.29s-19.05s)
+2025-09-13 00:20:10,040 - INFO - 音声[4]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment4_metan-amaama_20250912.wav (19.05s-23.81s)
+2025-09-13 00:20:10,214 - INFO - 音声[5]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment5_zundamon-normal_20250912.wav (23.81s-28.57s)
+2025-09-13 00:20:10,386 - INFO - 音声[6]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment6_zundamon-amaama_20250912.wav (28.57s-33.33s)
+2025-09-13 00:20:10,559 - INFO - 音声[7]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment7_zundamon-tsuntsun_20250912.wav (33.33s-38.10s)
+2025-09-13 00:20:10,736 - INFO - 音声[8]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment8_zundamon-sexy_20250912.wav (38.10s-42.86s)
+2025-09-13 00:20:10,908 - INFO - 音声[9]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment9_metan-normal_20250912.wav (42.86s-47.62s)
+2025-09-13 00:20:11,081 - INFO - 音声[10]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment10_metan-amaama_20250912.wav (47.62s-52.38s)
+2025-09-13 00:20:11,259 - INFO - 音声[11]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment11_zundamon-normal_20250912.wav (52.38s-57.14s)
+2025-09-13 00:20:11,433 - INFO - 音声[12]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment12_zundamon-amaama_20250912.wav (57.14s-61.90s)
+2025-09-13 00:20:11,604 - INFO - 音声[13]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment13_zundamon-tsuntsun_20250912.wav (61.90s-66.67s)
+2025-09-13 00:20:11,785 - INFO - 音声[14]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment14_zundamon-sexy_20250912.wav (66.67s-71.43s)
+2025-09-13 00:20:11,960 - INFO - 音声[15]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment15_metan-normal_20250912.wav (71.43s-76.19s)
+2025-09-13 00:20:12,135 - INFO - 音声[16]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment16_metan-amaama_20250912.wav (76.19s-80.95s)
+2025-09-13 00:20:12,305 - INFO - 音声[17]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment17_zundamon-normal_20250912.wav (80.95s-85.71s)
+2025-09-13 00:20:12,480 - INFO - 音声[18]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment18_zundamon-amaama_20250912.wav (85.71s-90.48s)
+2025-09-13 00:20:12,653 - INFO - 音声[19]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment19_zundamon-tsuntsun_20250912.wav (90.48s-95.24s)
+2025-09-13 00:20:12,833 - INFO - 音声[20]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment20_zundamon-sexy_20250912.wav (95.24s-100.00s)
+2025-09-13 00:20:12,833 - INFO - 音声結合完了: 総時間 100.00秒 (目標: 100.0秒)
+2025-09-13 00:20:12,833 - INFO - 21個セグメント配置: タイトル1個 + コメント20個
+2025-09-13 00:20:12,845 - INFO - デフォルト背景（緑色）を作成
+2025-09-13 00:20:12,872 - INFO - テーマ動画合成完了
+2025-09-13 00:21:33,733 - INFO - 動画出力完了: C:\Users\pukur\nanj-baseball\videos\nanj-2025-09-12-with-title\theme2_with_title.mp4
+2025-09-13 00:21:33,733 - INFO - テーマ動画合成完了: C:\Users\pukur\nanj-baseball\videos\nanj-2025-09-12-with-title\theme2_with_title.mp4
+2025-09-13 00:21:34,199 - INFO - テーマ動画合成開始: 【朗報】新人選手の活躍キターーー！！これは神采配や
+2025-09-13 00:21:34,371 - INFO - タイトル音声配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\title_shinjin_katsuyaku.wav (0.0s-4.76s)
+2025-09-13 00:21:34,543 - INFO - 音声[1]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment1_metan-normal_20250912.wav (4.76s-9.52s)
+2025-09-13 00:21:34,727 - INFO - 音声[2]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment2_metan-amaama_20250912.wav (9.52s-14.29s)
+2025-09-13 00:21:34,912 - INFO - 音声[3]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment3_zundamon-normal_20250912.wav (14.29s-19.05s)
+2025-09-13 00:21:35,081 - INFO - 音声[4]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment4_zundamon-amaama_20250912.wav (19.05s-23.81s)
+2025-09-13 00:21:35,254 - INFO - 音声[5]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment5_zundamon-tsuntsun_20250912.wav (23.81s-28.57s)
+2025-09-13 00:21:35,426 - INFO - 音声[6]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment6_zundamon-sexy_20250912.wav (28.57s-33.33s)
+2025-09-13 00:21:35,595 - INFO - 音声[7]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment7_metan-normal_20250912.wav (33.33s-38.10s)
+2025-09-13 00:21:35,767 - INFO - 音声[8]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment8_metan-amaama_20250912.wav (38.10s-42.86s)
+2025-09-13 00:21:35,944 - INFO - 音声[9]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment9_zundamon-normal_20250912.wav (42.86s-47.62s)
+2025-09-13 00:21:36,118 - INFO - 音声[10]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment10_zundamon-amaama_20250912.wav (47.62s-52.38s)
+2025-09-13 00:21:36,298 - INFO - 音声[11]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment11_zundamon-tsuntsun_20250912.wav (52.38s-57.14s)
+2025-09-13 00:21:36,473 - INFO - 音声[12]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment12_zundamon-sexy_20250912.wav (57.14s-61.90s)
+2025-09-13 00:21:36,646 - INFO - 音声[13]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment13_metan-normal_20250912.wav (61.90s-66.67s)
+2025-09-13 00:21:36,820 - INFO - 音声[14]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment14_metan-amaama_20250912.wav (66.67s-71.43s)
+2025-09-13 00:21:36,987 - INFO - 音声[15]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment15_zundamon-normal_20250912.wav (71.43s-76.19s)
+2025-09-13 00:21:37,157 - INFO - 音声[16]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment16_zundamon-amaama_20250912.wav (76.19s-80.95s)
+2025-09-13 00:21:37,330 - INFO - 音声[17]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment17_zundamon-tsuntsun_20250912.wav (80.95s-85.71s)
+2025-09-13 00:21:37,501 - INFO - 音声[18]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment18_zundamon-sexy_20250912.wav (85.71s-90.48s)
+2025-09-13 00:21:37,671 - INFO - 音声[19]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment19_metan-normal_20250912.wav (90.48s-95.24s)
+2025-09-13 00:21:37,844 - INFO - 音声[20]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment20_metan-amaama_20250912.wav (95.24s-100.00s)
+2025-09-13 00:21:37,844 - INFO - 音声結合完了: 総時間 100.00秒 (目標: 100.0秒)
+2025-09-13 00:21:37,844 - INFO - 21個セグメント配置: タイトル1個 + コメント20個
+2025-09-13 00:21:37,856 - INFO - デフォルト背景（緑色）を作成
+2025-09-13 00:21:37,882 - INFO - テーマ動画合成完了
+2025-09-13 00:23:09,698 - INFO - 動画出力完了: C:\Users\pukur\nanj-baseball\videos\nanj-2025-09-12-with-title\theme3_with_title.mp4
+2025-09-13 00:23:09,699 - INFO - テーマ動画合成完了: C:\Users\pukur\nanj-baseball\videos\nanj-2025-09-12-with-title\theme3_with_title.mp4
+2025-09-13 00:23:54,446 - INFO - テーマ動画合成開始: 【悲報】守護神がまさかのセーブ失敗やらかしたwwwwww
+2025-09-13 00:23:54,693 - INFO - タイトル音声配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\title_shushin_fail.wav (0.0s-4.76s)
+2025-09-13 00:23:54,888 - INFO - 音声[1]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment1_zundamon-tsuntsun_20250912.wav (4.76s-9.52s)
+2025-09-13 00:23:55,074 - INFO - 音声[2]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment2_zundamon-sexy_20250912.wav (9.52s-14.29s)
+2025-09-13 00:23:55,268 - INFO - 音声[3]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment3_metan-normal_20250912.wav (14.29s-19.05s)
+2025-09-13 00:23:55,455 - INFO - 音声[4]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment4_metan-amaama_20250912.wav (19.05s-23.81s)
+2025-09-13 00:23:55,637 - INFO - 音声[5]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment5_zundamon-normal_20250912.wav (23.81s-28.57s)
+2025-09-13 00:23:55,818 - INFO - 音声[6]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment6_zundamon-amaama_20250912.wav (28.57s-33.33s)
+2025-09-13 00:23:56,016 - INFO - 音声[7]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment7_zundamon-tsuntsun_20250912.wav (33.33s-38.10s)
+2025-09-13 00:23:56,200 - INFO - 音声[8]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment8_zundamon-sexy_20250912.wav (38.10s-42.86s)
+2025-09-13 00:23:56,408 - INFO - 音声[9]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment9_metan-normal_20250912.wav (42.86s-47.62s)
+2025-09-13 00:23:56,579 - INFO - 音声[10]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment10_metan-amaama_20250912.wav (47.62s-52.38s)
+2025-09-13 00:23:56,754 - INFO - 音声[11]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment11_zundamon-normal_20250912.wav (52.38s-57.14s)
+2025-09-13 00:23:56,932 - INFO - 音声[12]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment12_zundamon-amaama_20250912.wav (57.14s-61.90s)
+2025-09-13 00:23:57,122 - INFO - 音声[13]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment13_zundamon-tsuntsun_20250912.wav (61.90s-66.67s)
+2025-09-13 00:23:57,295 - INFO - 音声[14]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment14_zundamon-sexy_20250912.wav (66.67s-71.43s)
+2025-09-13 00:23:57,467 - INFO - 音声[15]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment15_metan-normal_20250912.wav (71.43s-76.19s)
+2025-09-13 00:23:57,641 - INFO - 音声[16]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment16_metan-amaama_20250912.wav (76.19s-80.95s)
+2025-09-13 00:23:57,813 - INFO - 音声[17]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment17_zundamon-normal_20250912.wav (80.95s-85.71s)
+2025-09-13 00:23:57,996 - INFO - 音声[18]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment18_zundamon-amaama_20250912.wav (85.71s-90.48s)
+2025-09-13 00:23:58,172 - INFO - 音声[19]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment19_zundamon-tsuntsun_20250912.wav (90.48s-95.24s)
+2025-09-13 00:23:58,345 - INFO - 音声[20]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment20_zundamon-sexy_20250912.wav (95.24s-100.00s)
+2025-09-13 00:23:58,345 - INFO - 音声結合完了: 総時間 100.00秒 (目標: 100.0秒)
+2025-09-13 00:23:58,345 - INFO - 21個セグメント配置: タイトル1個 + コメント20個
+2025-09-13 00:23:58,357 - INFO - デフォルト背景（緑色）を作成
+2025-09-13 00:23:58,388 - INFO - テーマ動画合成完了
+2025-09-13 00:25:23,340 - INFO - 動画出力完了: C:\Users\pukur\nanj-baseball\videos\theme2-with-title\theme2_with_title.mp4
+2025-09-13 00:25:23,340 - INFO - テーマ動画合成完了: C:\Users\pukur\nanj-baseball\videos\theme2-with-title\theme2_with_title.mp4
+2025-09-13 00:25:43,928 - INFO - テーマ動画合成開始: 【朗報】新人選手の活躍キターーー！！これは神采配や
+2025-09-13 00:25:44,119 - INFO - タイトル音声配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\title_shinjin_katsuyaku.wav (0.0s-4.76s)
+2025-09-13 00:25:44,302 - INFO - 音声[1]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment1_metan-normal_20250912.wav (4.76s-9.52s)
+2025-09-13 00:25:44,486 - INFO - 音声[2]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment2_metan-amaama_20250912.wav (9.52s-14.29s)
+2025-09-13 00:25:44,662 - INFO - 音声[3]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment3_zundamon-normal_20250912.wav (14.29s-19.05s)
+2025-09-13 00:25:44,838 - INFO - 音声[4]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment4_zundamon-amaama_20250912.wav (19.05s-23.81s)
+2025-09-13 00:25:45,018 - INFO - 音声[5]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment5_zundamon-tsuntsun_20250912.wav (23.81s-28.57s)
+2025-09-13 00:25:45,190 - INFO - 音声[6]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment6_zundamon-sexy_20250912.wav (28.57s-33.33s)
+2025-09-13 00:25:45,360 - INFO - 音声[7]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment7_metan-normal_20250912.wav (33.33s-38.10s)
+2025-09-13 00:25:45,531 - INFO - 音声[8]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment8_metan-amaama_20250912.wav (38.10s-42.86s)
+2025-09-13 00:25:45,704 - INFO - 音声[9]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment9_zundamon-normal_20250912.wav (42.86s-47.62s)
+2025-09-13 00:25:45,882 - INFO - 音声[10]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment10_zundamon-amaama_20250912.wav (47.62s-52.38s)
+2025-09-13 00:25:46,060 - INFO - 音声[11]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment11_zundamon-tsuntsun_20250912.wav (52.38s-57.14s)
+2025-09-13 00:25:46,234 - INFO - 音声[12]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment12_zundamon-sexy_20250912.wav (57.14s-61.90s)
+2025-09-13 00:25:46,413 - INFO - 音声[13]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment13_metan-normal_20250912.wav (61.90s-66.67s)
+2025-09-13 00:25:46,585 - INFO - 音声[14]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment14_metan-amaama_20250912.wav (66.67s-71.43s)
+2025-09-13 00:25:46,757 - INFO - 音声[15]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment15_zundamon-normal_20250912.wav (71.43s-76.19s)
+2025-09-13 00:25:46,935 - INFO - 音声[16]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment16_zundamon-amaama_20250912.wav (76.19s-80.95s)
+2025-09-13 00:25:47,114 - INFO - 音声[17]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment17_zundamon-tsuntsun_20250912.wav (80.95s-85.71s)
+2025-09-13 00:25:47,291 - INFO - 音声[18]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment18_zundamon-sexy_20250912.wav (85.71s-90.48s)
+2025-09-13 00:25:47,463 - INFO - 音声[19]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment19_metan-normal_20250912.wav (90.48s-95.24s)
+2025-09-13 00:25:47,635 - INFO - 音声[20]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment20_metan-amaama_20250912.wav (95.24s-100.00s)
+2025-09-13 00:25:47,635 - INFO - 音声結合完了: 総時間 100.00秒 (目標: 100.0秒)
+2025-09-13 00:25:47,635 - INFO - 21個セグメント配置: タイトル1個 + コメント20個
+2025-09-13 00:25:47,648 - INFO - デフォルト背景（緑色）を作成
+2025-09-13 00:25:47,679 - INFO - テーマ動画合成完了
+2025-09-13 00:27:16,806 - INFO - 動画出力完了: C:\Users\pukur\nanj-baseball\videos\theme3-with-title\theme3_with_title.mp4
+2025-09-13 00:27:16,807 - INFO - テーマ動画合成完了: C:\Users\pukur\nanj-baseball\videos\theme3-with-title\theme3_with_title.mp4
+2025-09-13 00:34:34,021 - INFO - テーマ動画合成開始: 【悲報】守護神がまさかのセーブ失敗やらかしたwwwwww
+2025-09-13 00:34:34,252 - INFO - タイトル音声配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\title_shushin_fail.wav (0.0s-4.76s)
+2025-09-13 00:34:34,421 - INFO - 音声[1]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment1_zundamon-tsuntsun_20250912.wav (4.76s-9.52s)
+2025-09-13 00:34:34,588 - INFO - 音声[2]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment2_zundamon-sexy_20250912.wav (9.52s-14.29s)
+2025-09-13 00:34:34,758 - INFO - 音声[3]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment3_metan-normal_20250912.wav (14.29s-19.05s)
+2025-09-13 00:34:34,928 - INFO - 音声[4]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment4_metan-amaama_20250912.wav (19.05s-23.81s)
+2025-09-13 00:34:35,101 - INFO - 音声[5]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment5_zundamon-normal_20250912.wav (23.81s-28.57s)
+2025-09-13 00:34:35,270 - INFO - 音声[6]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment6_zundamon-amaama_20250912.wav (28.57s-33.33s)
+2025-09-13 00:34:35,439 - INFO - 音声[7]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment7_zundamon-tsuntsun_20250912.wav (33.33s-38.10s)
+2025-09-13 00:34:35,608 - INFO - 音声[8]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment8_zundamon-sexy_20250912.wav (38.10s-42.86s)
+2025-09-13 00:34:35,778 - INFO - 音声[9]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment9_metan-normal_20250912.wav (42.86s-47.62s)
+2025-09-13 00:34:35,951 - INFO - 音声[10]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment10_metan-amaama_20250912.wav (47.62s-52.38s)
+2025-09-13 00:34:36,121 - INFO - 音声[11]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment11_zundamon-normal_20250912.wav (52.38s-57.14s)
+2025-09-13 00:34:36,291 - INFO - 音声[12]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment12_zundamon-amaama_20250912.wav (57.14s-61.90s)
+2025-09-13 00:34:36,459 - INFO - 音声[13]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment13_zundamon-tsuntsun_20250912.wav (61.90s-66.67s)
+2025-09-13 00:34:36,672 - INFO - 音声[14]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment14_zundamon-sexy_20250912.wav (66.67s-71.43s)
+2025-09-13 00:34:36,852 - INFO - 音声[15]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment15_metan-normal_20250912.wav (71.43s-76.19s)
+2025-09-13 00:34:37,045 - INFO - 音声[16]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment16_metan-amaama_20250912.wav (76.19s-80.95s)
+2025-09-13 00:34:37,236 - INFO - 音声[17]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment17_zundamon-normal_20250912.wav (80.95s-85.71s)
+2025-09-13 00:34:37,420 - INFO - 音声[18]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment18_zundamon-amaama_20250912.wav (85.71s-90.48s)
+2025-09-13 00:34:37,599 - INFO - 音声[19]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment19_zundamon-tsuntsun_20250912.wav (90.48s-95.24s)
+2025-09-13 00:34:37,789 - INFO - 音声[20]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme2_comment20_zundamon-sexy_20250912.wav (95.24s-100.00s)
+2025-09-13 00:34:37,790 - INFO - 音声結合完了: 総時間 100.00秒 (目標: 100.0秒)
+2025-09-13 00:34:37,790 - INFO - 21個セグメント配置: タイトル1個 + コメント20個
+2025-09-13 00:34:37,802 - INFO - デフォルト背景（緑色）を作成
+2025-09-13 00:34:37,832 - INFO - テーマ動画合成完了
+2025-09-13 00:36:06,706 - INFO - 動画出力完了: C:\Users\pukur\nanj-baseball\videos\theme2-with-title\theme2_with_title.mp4
+2025-09-13 00:36:06,706 - INFO - テーマ動画合成完了: C:\Users\pukur\nanj-baseball\videos\theme2-with-title\theme2_with_title.mp4
+2025-09-13 00:36:16,940 - INFO - テーマ動画合成開始: 【朗報】新人選手の活躍キターーー！！これは神采配や
+2025-09-13 00:36:17,141 - INFO - タイトル音声配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\title_shinjin_katsuyaku.wav (0.0s-4.76s)
+2025-09-13 00:36:17,325 - INFO - 音声[1]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment1_metan-normal_20250912.wav (4.76s-9.52s)
+2025-09-13 00:36:17,509 - INFO - 音声[2]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment2_metan-amaama_20250912.wav (9.52s-14.29s)
+2025-09-13 00:36:17,705 - INFO - 音声[3]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment3_zundamon-normal_20250912.wav (14.29s-19.05s)
+2025-09-13 00:36:17,893 - INFO - 音声[4]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment4_zundamon-amaama_20250912.wav (19.05s-23.81s)
+2025-09-13 00:36:18,078 - INFO - 音声[5]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment5_zundamon-tsuntsun_20250912.wav (23.81s-28.57s)
+2025-09-13 00:36:18,261 - INFO - 音声[6]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment6_zundamon-sexy_20250912.wav (28.57s-33.33s)
+2025-09-13 00:36:18,460 - INFO - 音声[7]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment7_metan-normal_20250912.wav (33.33s-38.10s)
+2025-09-13 00:36:18,664 - INFO - 音声[8]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment8_metan-amaama_20250912.wav (38.10s-42.86s)
+2025-09-13 00:36:18,890 - INFO - 音声[9]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment9_zundamon-normal_20250912.wav (42.86s-47.62s)
+2025-09-13 00:36:19,078 - INFO - 音声[10]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment10_zundamon-amaama_20250912.wav (47.62s-52.38s)
+2025-09-13 00:36:19,263 - INFO - 音声[11]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment11_zundamon-tsuntsun_20250912.wav (52.38s-57.14s)
+2025-09-13 00:36:19,450 - INFO - 音声[12]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment12_zundamon-sexy_20250912.wav (57.14s-61.90s)
+2025-09-13 00:36:19,636 - INFO - 音声[13]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment13_metan-normal_20250912.wav (61.90s-66.67s)
+2025-09-13 00:36:19,834 - INFO - 音声[14]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment14_metan-amaama_20250912.wav (66.67s-71.43s)
+2025-09-13 00:36:20,014 - INFO - 音声[15]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment15_zundamon-normal_20250912.wav (71.43s-76.19s)
+2025-09-13 00:36:20,203 - INFO - 音声[16]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment16_zundamon-amaama_20250912.wav (76.19s-80.95s)
+2025-09-13 00:36:20,391 - INFO - 音声[17]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment17_zundamon-tsuntsun_20250912.wav (80.95s-85.71s)
+2025-09-13 00:36:20,575 - INFO - 音声[18]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment18_zundamon-sexy_20250912.wav (85.71s-90.48s)
+2025-09-13 00:36:20,761 - INFO - 音声[19]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment19_metan-normal_20250912.wav (90.48s-95.24s)
+2025-09-13 00:36:20,972 - INFO - 音声[20]配置: C:\Users\pukur\nanj-baseball\audio\nanj-2025-09-12\theme3_comment20_metan-amaama_20250912.wav (95.24s-100.00s)
+2025-09-13 00:36:20,972 - INFO - 音声結合完了: 総時間 100.00秒 (目標: 100.0秒)
+2025-09-13 00:36:20,972 - INFO - 21個セグメント配置: タイトル1個 + コメント20個
+2025-09-13 00:36:20,984 - INFO - デフォルト背景（緑色）を作成
+2025-09-13 00:36:21,016 - INFO - テーマ動画合成完了
+2025-09-13 00:37:56,583 - INFO - 動画出力完了: C:\Users\pukur\nanj-baseball\videos\theme3-with-title\theme3_with_title.mp4
+2025-09-13 00:37:56,583 - INFO - テーマ動画合成完了: C:\Users\pukur\nanj-baseball\videos\theme3-with-title\theme3_with_title.mp4

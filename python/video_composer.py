@@ -475,7 +475,27 @@ class VideoComposer:
             # タイトル音声ファイルを探索
             import glob
             audio_dir = os.path.dirname(audio_files[0]) if audio_files else '.'
+            
+            # テーマ番号を推測（音声ファイル名から）
+            theme_num = 1
+            if audio_files:
+                filename = os.path.basename(audio_files[0])
+                if 'theme2' in filename:
+                    theme_num = 2
+                elif 'theme3' in filename:
+                    theme_num = 3
+            
+            # テーマごとの特定タイトル音声ファイル名
+            theme_title_files = {
+                1: 'title_gekiteki.wav',
+                2: 'title_shushin_fail.wav', 
+                3: 'title_shinjin_katsuyaku.wav'
+            }
+            
+            specific_title_file = theme_title_files.get(theme_num, 'title_gekiteki.wav')
+            
             title_patterns = [
+                os.path.join(audio_dir, specific_title_file),  # テーマ固有のタイトル
                 os.path.join(audio_dir, 'title_*.wav'),
                 os.path.join(audio_dir, '*title*.wav'),
                 # フォールバック: 最初のコメント音声をタイトルとして使用
