@@ -24,6 +24,7 @@ try:
     from moviepy.audio.fx import audio_fadeout, audio_fadein
     import numpy as np
     from PIL import Image, ImageDraw, ImageFont
+    from .performance_optimizer import PerformanceOptimizer
 except ImportError as e:
     print(f"必須ライブラリが不足しています: {e}")
     print("pip install -r requirements.txt を実行してください")
@@ -46,6 +47,7 @@ class VideoComposer:
     def __init__(self, temp_dir: Optional[str] = None):
         self.temp_dir = temp_dir or tempfile.gettempdir()
         self.default_settings = self._get_default_settings()
+        self.performance_optimizer = PerformanceOptimizer()
     
     def _get_default_settings(self) -> Dict[str, Any]:
         """デフォルト設定を取得"""
@@ -134,67 +136,111 @@ class VideoComposer:
     def compose_theme_video(self, theme_config: Dict[str, Any]) -> str:
         """
         テーマごとの動画を合成（20個の音声+吹き出しを1つの動画に統合）
-        
+
         Args:
             theme_config: テーマ動画合成設定
                 - theme_name: テーマ名
                 - audio_files: 音声ファイルのリスト（20個）
-                - texts: 対応するテキストのリスト（20個）  
+                - texts: 対応するテキストのリスト（20個）
                 - subtitle_images: 字幕画像パスのリスト（オプション）
                 - output_path: 出力パス
                 - settings: 追加設定
-        
+
         Returns:
             str: 出力動画のパス
         """
-        try:
-            logger.info(f"テーマ動画合成開始: {theme_config.get('theme_name', '不明')}")
-            
-            # 設定の検証
-            self._validate_theme_config(theme_config)
-            
-            # 音声クリップの読み込みと結合
-            combined_audio, audio_timings = self._combine_theme_audios(theme_config["audio_files"])
-            
-            # 背景動画の準備
-            background_clip = self._prepare_background(
-                theme_config.get("background_video"), 
-                combined_audio.duration,
-                theme_config.get("settings", {})
-            )
-            
-            # 複数吹き出しクリップの準備（一時的に無効化してまず音声のみテスト）
-            subtitle_clips = []
-            # subtitle_clips = self._prepare_title_and_subtitles(
-            #     theme_config.get("theme_name", "テーマ"),
-            #     theme_config.get("subtitle_images", []),
-            #     theme_config.get("texts", []),
-            #     audio_timings,
-            #     theme_config.get("settings", {})
-            # )
-            
-            # 動画の合成
-            final_video = self._compose_theme_final_video(
-                background_clip,
-                subtitle_clips,
-                combined_audio,
-                theme_config.get("settings", {})
-            )
-            
-            # 出力
-            output_path = self._export_video(final_video, theme_config["output_path"], theme_config.get("settings", {}))
-            
-            # クリーンアップ
-            clips_to_cleanup = [background_clip, combined_audio, final_video] + subtitle_clips
-            self._cleanup_clips(clips_to_cleanup)
-            
-            logger.info(f"テーマ動画合成完了: {output_path}")
-            return output_path
-            
-        except Exception as e:
-            logger.error(f"テーマ動画合成エラー: {str(e)}")
-            logger.error(traceback.format_exc())
-            raise Exception(f"テーマ動画合成に失敗しました: {str(e)}")
+        with self.performance_optimizer as optimizer:
+            try:
+                logger.info(f"テーマ動画合成開始: {theme_config.get('theme_name', '不明')}")
+
+                # 処理前バリデーション
+                if not optimizer.pre_process_validation(theme_config):
+                    raise Exception("処理前バリデーション失敗")
+
+                # 設定の検証
+                self._validate_theme_config(theme_config)
+
+                # パフォーマンス最適化設定を適用
+                optimized_settings = theme_config.get("settings", {}).copy()
+                audio_files = theme_config["audio_files"]
+
+                # 動画長を計算して最適設定を取得
+                estimated_duration = len(audio_files) * 4.76  # 21セグメント方式
+                video_opts = optimizer.get_optimal_video_settings(estimated_duration)
+                audio_opts = optimizer.optimize_audio_processing(audio_files)
+
+                # 最適化設定をマージ
+                if "video" not in optimized_settings:
+                    optimized_settings["video"] = {}
+                optimized_settings["video"].update(video_opts)
+                optimized_settings["audio"] = audio_opts
+
+                # 音声クリップの読み込みと結合（パフォーマンス測定）
+                @optimizer.measure_performance("音声結合処理")
+                def combine_audios():
+                    return self._combine_theme_audios(theme_config["audio_files"])
+
+                combined_audio, audio_timings = combine_audios()
+                optimizer.force_garbage_collection()
+
+                # 背景動画の準備（パフォーマンス測定）
+                @optimizer.measure_performance("背景動画準備")
+                def prepare_background():
+                    return self._prepare_background(
+                        theme_config.get("background_video"),
+                        combined_audio.duration,
+                        optimized_settings
+                    )
+
+                background_clip = prepare_background()
+                optimizer.force_garbage_collection()
+
+                # 複数吹き出しクリップの準備（一時的に無効化してまず音声のみテスト）
+                subtitle_clips = []
+                # subtitle_clips = self._prepare_title_and_subtitles(
+                #     theme_config.get("theme_name", "テーマ"),
+                #     theme_config.get("subtitle_images", []),
+                #     theme_config.get("texts", []),
+                #     audio_timings,
+                #     optimized_settings
+                # )
+
+                # 動画の合成（パフォーマンス測定）
+                @optimizer.measure_performance("動画合成処理")
+                def compose_final():
+                    return self._compose_theme_final_video(
+                        background_clip,
+                        subtitle_clips,
+                        combined_audio,
+                        optimized_settings
+                    )
+
+                final_video = compose_final()
+                optimizer.force_garbage_collection()
+
+                # 出力（パフォーマンス測定）
+                @optimizer.measure_performance("動画出力処理")
+                def export_video():
+                    return self._export_video(final_video, theme_config["output_path"], optimized_settings)
+
+                output_path = export_video()
+
+                # クリーンアップ
+                clips_to_cleanup = [background_clip, combined_audio, final_video] + subtitle_clips
+                self._cleanup_clips(clips_to_cleanup)
+
+                # パフォーマンスレポート
+                report = optimizer.get_performance_report()
+                logger.info(f"パフォーマンス詳細 - 総実行時間: {report['total_execution_time']:.2f}秒, "
+                          f"メモリ使用量: {report['total_memory_usage_gb']:.2f}GB")
+
+                logger.info(f"テーマ動画合成完了: {output_path}")
+                return output_path
+
+            except Exception as e:
+                logger.error(f"テーマ動画合成エラー: {str(e)}")
+                logger.error(traceback.format_exc())
+                raise Exception(f"テーマ動画合成に失敗しました: {str(e)}")
 
     def compose_batch_videos(self, configs: List[Dict[str, Any]]) -> List[str]:
         """

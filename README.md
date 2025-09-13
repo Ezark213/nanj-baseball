@@ -1,6 +1,17 @@
-# 🎬 なんJ野球動画自動生成システム
+# 🎬 nanj-baseball 動画生成システム
 
-指定した日付の最新プロ野球情報から、60個のなんJ語コメントを自動生成し、**1分40秒固定の動画**を完全自動生成するリアルタイムシステムです。
+[![Quality](https://img.shields.io/badge/Quality-75.5%25-green)](./tests/code_quality_report.json)
+[![Performance](https://img.shields.io/badge/Performance-95.8%25-brightgreen)](./tests/performance_benchmark_report.json)
+[![Status](https://img.shields.io/badge/Status-Production%20Ready-success)](./FINAL_PROJECT_EVALUATION_REPORT.md)
+[![AI Coding](https://img.shields.io/badge/AI%20Coding-Principles%20Compliant-blue)](./CLAUDE.md)
+
+なんJ野球動画自動生成システム - VoiceVox音声合成 + 動画合成による高品質野球コメント動画の自動生成
+
+**2025年9月13日完全バグ修正・パフォーマンス最適化完了** ✅
+
+## 🚀 プロジェクト概要
+
+AI Coding Principlesに基づく完全なバグ修正・パフォーマンス最適化を実施し、エンタープライズレベルの動画生成プラットフォームとして完成しました。
 
 ## 🎯 システム概要
 

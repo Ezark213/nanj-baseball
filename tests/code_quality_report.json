@@ -1,0 +1,593 @@
+{
+  "file_structure": {
+    "existing_files": [
+      "python/video_composer.py",
+      "python/performance_optimizer.py",
+      "python/requirements.txt",
+      "scripts/regenerate-all-theme-videos.py"
+    ],
+    "missing_files": [],
+    "structure_score": 1.0
+  },
+  "code_complexity": {
+    "performance_optimizer.py": {
+      "classes": 1,
+      "functions": 16,
+      "lines": 211,
+      "complexity_score": 4.028436018957346
+    },
+    "video_composer.py": {
+      "classes": 1,
+      "functions": 30,
+      "lines": 915,
+      "complexity_score": 1.6939890710382512
+    },
+    "code_quality_check.py": {
+      "classes": 1,
+      "functions": 10,
+      "lines": 286,
+      "complexity_score": 1.9230769230769231
+    },
+    "generate-random-bg-video.py": {
+      "classes": 0,
+      "functions": 1,
+      "lines": 65,
+      "complexity_score": 0.7692307692307692
+    },
+    "integration_test_safe.py": {
+      "classes": 0,
+      "functions": 1,
+      "lines": 115,
+      "complexity_score": 0.4347826086956522
+    },
+    "performance_test.py": {
+      "classes": 0,
+      "functions": 1,
+      "lines": 115,
+      "complexity_score": 0.4347826086956522
+    },
+    "regenerate-all-theme-videos.py": {
+      "classes": 0,
+      "functions": 2,
+      "lines": 98,
+      "complexity_score": 1.0204081632653061
+    },
+    "simple-bg-test.py": {
+      "classes": 0,
+      "functions": 1,
+      "lines": 37,
+      "complexity_score": 1.0
+    },
+    "test-random-background.py": {
+      "classes": 0,
+      "functions": 1,
+      "lines": 81,
+      "complexity_score": 0.6172839506172839
+    },
+    "test-single-theme.py": {
+      "classes": 0,
+      "functions": 1,
+      "lines": 78,
+      "complexity_score": 0.641025641025641
+    },
+    "test-theme-video.py": {
+      "classes": 0,
+      "functions": 1,
+      "lines": 85,
+      "complexity_score": 0.5882352941176471
+    },
+    "test-theme3.py": {
+      "classes": 0,
+      "functions": 1,
+      "lines": 78,
+      "complexity_score": 0.641025641025641
+    }
+  },
+  "documentation": {
+    "performance_optimizer.py": {
+      "functions_documented": 13,
+      "total_functions": 16,
+      "classes_documented": 1,
+      "total_classes": 1,
+      "documentation_coverage": 0.8235294117647058
+    },
+    "video_composer.py": {
+      "functions_documented": 25,
+      "total_functions": 30,
+      "classes_documented": 1,
+      "total_classes": 1,
+      "documentation_coverage": 0.8387096774193549
+    },
+    "code_quality_check.py": {
+      "functions_documented": 9,
+      "total_functions": 10,
+      "classes_documented": 1,
+      "total_classes": 1,
+      "documentation_coverage": 0.9090909090909091
+    },
+    "generate-random-bg-video.py": {
+      "functions_documented": 0,
+      "total_functions": 1,
+      "classes_documented": 0,
+      "total_classes": 0,
+      "documentation_coverage": 0.0
+    },
+    "integration_test_safe.py": {
+      "functions_documented": 1,
+      "total_functions": 1,
+      "classes_documented": 0,
+      "total_classes": 0,
+      "documentation_coverage": 1.0
+    },
+    "performance_test.py": {
+      "functions_documented": 1,
+      "total_functions": 1,
+      "classes_documented": 0,
+      "total_classes": 0,
+      "documentation_coverage": 1.0
+    },
+    "regenerate-all-theme-videos.py": {
+      "functions_documented": 2,
+      "total_functions": 2,
+      "classes_documented": 0,
+      "total_classes": 0,
+      "documentation_coverage": 1.0
+    },
+    "simple-bg-test.py": {
+      "functions_documented": 0,
+      "total_functions": 1,
+      "classes_documented": 0,
+      "total_classes": 0,
+      "documentation_coverage": 0.0
+    },
+    "test-random-background.py": {
+      "functions_documented": 0,
+      "total_functions": 1,
+      "classes_documented": 0,
+      "total_classes": 0,
+      "documentation_coverage": 0.0
+    },
+    "test-single-theme.py": {
+      "functions_documented": 0,
+      "total_functions": 1,
+      "classes_documented": 0,
+      "total_classes": 0,
+      "documentation_coverage": 0.0
+    },
+    "test-theme-video.py": {
+      "functions_documented": 1,
+      "total_functions": 1,
+      "classes_documented": 0,
+      "total_classes": 0,
+      "documentation_coverage": 1.0
+    },
+    "test-theme3.py": {
+      "functions_documented": 0,
+      "total_functions": 1,
+      "classes_documented": 0,
+      "total_classes": 0,
+      "documentation_coverage": 0.0
+    }
+  },
+  "imports": {
+    "performance_optimizer.py": {
+      "import_count": 8,
+      "imports": [
+        [
+          8,
+          "import gc"
+        ],
+        [
+          9,
+          "import os"
+        ],
+        [
+          10,
+          "import logging"
+        ],
+        [
+          11,
+          "import time"
+        ],
+        [
+          12,
+          "from typing import Dict, Any, Optional"
+        ],
+        [
+          13,
+          "from pathlib import Path"
+        ],
+        [
+          14,
+          "import psutil"
+        ],
+        [
+          15,
+          "from moviepy.editor import VideoFileClip, AudioFileClip"
+        ]
+      ]
+    },
+    "video_composer.py": {
+      "import_count": 20,
+      "imports": [
+        [
+          9,
+          "import json"
+        ],
+        [
+          10,
+          "import sys"
+        ],
+        [
+          11,
+          "import os"
+        ],
+        [
+          12,
+          "import tempfile"
+        ],
+        [
+          13,
+          "import logging"
+        ],
+        [
+          14,
+          "from pathlib import Path"
+        ],
+        [
+          15,
+          "from typing import Dict, List, Optional, Tuple, Any"
+        ],
+        [
+          16,
+          "import traceback"
+        ],
+        [
+          19,
+          "from moviepy.editor import ("
+        ],
+        [
+          23,
+          "from moviepy.video.fx import resize, fadeout, fadein"
+        ],
+        [
+          24,
+          "from moviepy.audio.fx import audio_fadeout, audio_fadein"
+        ],
+        [
+          25,
+          "import numpy as np"
+        ],
+        [
+          26,
+          "from PIL import Image, ImageDraw, ImageFont"
+        ],
+        [
+          27,
+          "from .performance_optimizer import PerformanceOptimizer"
+        ],
+        [
+          342,
+          "import random"
+        ],
+        [
+          343,
+          "import glob"
+        ],
+        [
+          557,
+          "import glob"
+        ],
+        [
+          607,
+          "from moviepy.editor import AudioClip"
+        ],
+        [
+          641,
+          "from moviepy.editor import CompositeAudioClip"
+        ],
+        [
+          842,
+          "from moviepy.editor import CompositeAudioClip"
+        ]
+      ]
+    },
+    "code_quality_check.py": {
+      "import_count": 6,
+      "imports": [
+        [
+          8,
+          "import ast"
+        ],
+        [
+          9,
+          "import sys"
+        ],
+        [
+          10,
+          "import os"
+        ],
+        [
+          11,
+          "from pathlib import Path"
+        ],
+        [
+          12,
+          "import re"
+        ],
+        [
+          273,
+          "import json"
+        ]
+      ]
+    },
+    "generate-random-bg-video.py": {
+      "import_count": 4,
+      "imports": [
+        [
+          4,
+          "import sys"
+        ],
+        [
+          5,
+          "import os"
+        ],
+        [
+          8,
+          "from video_composer import VideoComposer"
+        ],
+        [
+          9,
+          "import glob"
+        ]
+      ]
+    },
+    "integration_test_safe.py": {
+      "import_count": 5,
+      "imports": [
+        [
+          8,
+          "import sys"
+        ],
+        [
+          9,
+          "import os"
+        ],
+        [
+          10,
+          "import json"
+        ],
+        [
+          11,
+          "from pathlib import Path"
+        ],
+        [
+          17,
+          "from python.video_composer import VideoComposer"
+        ]
+      ]
+    },
+    "performance_test.py": {
+      "import_count": 5,
+      "imports": [
+        [
+          8,
+          "import sys"
+        ],
+        [
+          9,
+          "import os"
+        ],
+        [
+          10,
+          "import time"
+        ],
+        [
+          11,
+          "from pathlib import Path"
+        ],
+        [
+          17,
+          "from python.video_composer import VideoComposer"
+        ]
+      ]
+    },
+    "regenerate-all-theme-videos.py": {
+      "import_count": 5,
+      "imports": [
+        [
+          8,
+          "import sys"
+        ],
+        [
+          9,
+          "import os"
+        ],
+        [
+          10,
+          "import json"
+        ],
+        [
+          11,
+          "from pathlib import Path"
+        ],
+        [
+          17,
+          "from python.video_composer import VideoComposer"
+        ]
+      ]
+    },
+    "simple-bg-test.py": {
+      "import_count": 4,
+      "imports": [
+        [
+          4,
+          "import sys"
+        ],
+        [
+          5,
+          "import os"
+        ],
+        [
+          8,
+          "from video_composer import VideoComposer"
+        ],
+        [
+          9,
+          "import glob"
+        ]
+      ]
+    },
+    "test-random-background.py": {
+      "import_count": 4,
+      "imports": [
+        [
+          6,
+          "import sys"
+        ],
+        [
+          7,
+          "import os"
+        ],
+        [
+          8,
+          "from pathlib import Path"
+        ],
+        [
+          14,
+          "from python.video_composer import VideoComposer"
+        ]
+      ]
+    },
+    "test-single-theme.py": {
+      "import_count": 4,
+      "imports": [
+        [
+          6,
+          "import sys"
+        ],
+        [
+          7,
+          "import os"
+        ],
+        [
+          8,
+          "from pathlib import Path"
+        ],
+        [
+          14,
+          "from python.video_composer import VideoComposer"
+        ]
+      ]
+    },
+    "test-theme-video.py": {
+      "import_count": 5,
+      "imports": [
+        [
+          8,
+          "import sys"
+        ],
+        [
+          9,
+          "import os"
+        ],
+        [
+          10,
+          "import json"
+        ],
+        [
+          11,
+          "from pathlib import Path"
+        ],
+        [
+          17,
+          "from python.video_composer import VideoComposer"
+        ]
+      ]
+    },
+    "test-theme3.py": {
+      "import_count": 4,
+      "imports": [
+        [
+          6,
+          "import sys"
+        ],
+        [
+          7,
+          "import os"
+        ],
+        [
+          8,
+          "from pathlib import Path"
+        ],
+        [
+          14,
+          "from python.video_composer import VideoComposer"
+        ]
+      ]
+    }
+  },
+  "error_handling": {
+    "performance_optimizer.py": {
+      "try_blocks": 3,
+      "total_functions": 16,
+      "error_handling_coverage": 0.1875
+    },
+    "video_composer.py": {
+      "try_blocks": 16,
+      "total_functions": 30,
+      "error_handling_coverage": 0.5333333333333333
+    },
+    "code_quality_check.py": {
+      "try_blocks": 4,
+      "total_functions": 10,
+      "error_handling_coverage": 0.4
+    },
+    "generate-random-bg-video.py": {
+      "try_blocks": 1,
+      "total_functions": 1,
+      "error_handling_coverage": 1.0
+    },
+    "integration_test_safe.py": {
+      "try_blocks": 1,
+      "total_functions": 1,
+      "error_handling_coverage": 1.0
+    },
+    "performance_test.py": {
+      "try_blocks": 1,
+      "total_functions": 1,
+      "error_handling_coverage": 1.0
+    },
+    "regenerate-all-theme-videos.py": {
+      "try_blocks": 1,
+      "total_functions": 2,
+      "error_handling_coverage": 0.5
+    },
+    "simple-bg-test.py": {
+      "try_blocks": 0,
+      "total_functions": 1,
+      "error_handling_coverage": 0.0
+    },
+    "test-random-background.py": {
+      "try_blocks": 1,
+      "total_functions": 1,
+      "error_handling_coverage": 1.0
+    },
+    "test-single-theme.py": {
+      "try_blocks": 1,
+      "total_functions": 1,
+      "error_handling_coverage": 1.0
+    },
+    "test-theme-video.py": {
+      "try_blocks": 1,
+      "total_functions": 1,
+      "error_handling_coverage": 1.0
+    },
+    "test-theme3.py": {
+      "try_blocks": 1,
+      "total_functions": 1,
+      "error_handling_coverage": 1.0
+    }
+  },
+  "overall_quality_score": 0.7553378703224528
+}

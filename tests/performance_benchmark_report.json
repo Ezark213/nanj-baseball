@@ -1,0 +1,33 @@
+{
+  "video_quality": {
+    "performance_test_video.mp4": {
+      "file_size_mb": 0.47420310974121094,
+      "size_acceptable": true
+    },
+    "integration_test_video.mp4": {
+      "file_size_mb": 0.5415525436401367,
+      "size_acceptable": true
+    },
+    "cleanup_test.mp4": {
+      "file_size_mb": 4.57763671875e-05,
+      "size_acceptable": false
+    },
+    "title_audio_test.mp4": {
+      "file_size_mb": 0.4161520004272461,
+      "size_acceptable": true
+    }
+  },
+  "time_performance": {
+    "actual_time": 95.84,
+    "target_time": 120.0,
+    "meets_target": true,
+    "meets_acceptable": true
+  },
+  "memory_performance": {
+    "actual_memory_gb": 1.23,
+    "target_memory_gb": 2.0,
+    "meets_target": true,
+    "meets_acceptable": true
+  },
+  "overall_performance_score": 0.9583333333333334
+}
