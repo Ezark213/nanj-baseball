@@ -27,15 +27,16 @@
   "license": "MIT",
   "dependencies": {
     "canvas": "^2.11.2",
+    "fluent-ffmpeg": "^2.1.2",
     "sharp": "^0.32.6",
-    "fluent-ffmpeg": "^2.1.2"
+    "skia-canvas": "^3.0.6"
   },
   "devDependencies": {
-    "@types/node": "^20.8.0",
     "@types/fluent-ffmpeg": "^2.1.21",
-    "typescript": "^5.2.2",
+    "@types/node": "^20.8.0",
+    "rimraf": "^5.0.5",
     "ts-node": "^10.9.1",
-    "rimraf": "^5.0.5"
+    "typescript": "^5.2.2"
   },
   "engines": {
     "node": ">=18.0.0",
