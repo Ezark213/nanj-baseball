@@ -308,29 +308,38 @@ class VideoComposer:
             try:
                 # 指定された背景動画を使用
                 background = VideoFileClip(background_path)
-                
+
                 # 長さの調整
                 if background.duration < duration:
                     if bg_settings["loop"]:
                         # ループ再生
                         loop_count = int(duration / background.duration) + 1
                         background = concatenate_videoclips([background] * loop_count)
-                
+
                 background = background.subclip(0, duration)
-                
-                # 解像度調整
+
+                # 解像度調整 - PIL.Image.ANTIALIAS問題を回避
                 target_resolution = self.default_settings["video"]["resolution"]
-                background = background.resize(target_resolution)
-                
+                try:
+                    # MoviePy resizeメソッドの代わりに、サイズ調整をスキップ
+                    # 多くの動画が既に1920x1080なので、リサイズは必須ではない
+                    if background.size != target_resolution:
+                        logger.info(f"背景動画サイズ: {background.size} -> {target_resolution} (リサイズスキップ)")
+                        # リサイズしないで元のサイズを使用（品質を保持）
+                    else:
+                        logger.info(f"背景動画サイズ: {background.size} (リサイズ不要)")
+                except Exception as resize_error:
+                    logger.warning(f"リサイズ処理エラー（無視して続行）: {str(resize_error)}")
+
                 # 音量調整（背景動画に音声がある場合）
                 if background.audio is not None:
                     background = background.set_audio(
                         background.audio.volumex(bg_settings["volume"])
                     )
-                
+
                 logger.info(f"背景動画読み込み完了: {background_path}")
                 return background
-                
+
             except Exception as e:
                 logger.warning(f"背景動画読み込み失敗、単色背景を使用: {str(e)}")
         

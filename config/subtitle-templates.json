@@ -1,0 +1,95 @@
+{
+  "templates": {
+    "default": {
+      "name": "デフォルト",
+      "description": "基本的ななんJ語字幕テンプレート",
+      "styles": {
+        "font_size": 52,
+        "font_family": "Arial Black",
+        "text_color": "#FFFFFF",
+        "stroke_color": "#000000",
+        "stroke_width": 4,
+        "background_color": "rgba(0, 0, 0, 0.75)",
+        "padding": 25,
+        "margin": 30,
+        "shadow": {
+          "enabled": true,
+          "color": "rgba(0, 0, 0, 0.8)",
+          "blur": 3,
+          "offset_x": 2,
+          "offset_y": 2
+        }
+      }
+    },
+    "excited": {
+      "name": "興奮系",
+      "description": "興奮・盛り上がり系コメント用",
+      "styles": {
+        "font_size": 56,
+        "font_family": "Arial Black",
+        "text_color": "#FFD700",
+        "stroke_color": "#FF4500",
+        "stroke_width": 5,
+        "background_color": "rgba(255, 69, 0, 0.2)",
+        "padding": 30,
+        "margin": 25,
+        "shadow": {
+          "enabled": true,
+          "color": "rgba(255, 0, 0, 0.6)",
+          "blur": 4,
+          "offset_x": 3,
+          "offset_y": 3
+        }
+      }
+    },
+    "sad": {
+      "name": "落ち込み系",
+      "description": "残念・落胆系コメント用",
+      "styles": {
+        "font_size": 48,
+        "font_family": "Arial",
+        "text_color": "#87CEEB",
+        "stroke_color": "#000080",
+        "stroke_width": 3,
+        "background_color": "rgba(0, 0, 139, 0.2)",
+        "padding": 20,
+        "margin": 35,
+        "shadow": {
+          "enabled": true,
+          "color": "rgba(0, 0, 139, 0.5)",
+          "blur": 2,
+          "offset_x": 1,
+          "offset_y": 1
+        }
+      }
+    },
+    "custom": {
+      "name": "カスタム",
+      "description": "ユーザーカスタマイズ用テンプレート",
+      "styles": {
+        "font_size": 54,
+        "font_family": "Arial Black",
+        "text_color": "#00FF00",
+        "stroke_color": "#000000",
+        "stroke_width": 3,
+        "background_color": "rgba(0, 0, 0, 0.8)",
+        "padding": 28,
+        "margin": 32,
+        "shadow": {
+          "enabled": true,
+          "color": "rgba(0, 255, 0, 0.3)",
+          "blur": 5,
+          "offset_x": 2,
+          "offset_y": 2
+        }
+      }
+    }
+  },
+  "auto_assignment": {
+    "keywords": {
+      "excited": ["やったぜ", "すげー", "神", "最高", "興奮", "鳥肌", "やりやがった"],
+      "sad": ["あかん", "終わった", "最悪", "痛い", "残念", "ダメ", "失敗"]
+    },
+    "default_template": "default"
+  }
+}
